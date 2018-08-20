@@ -10,8 +10,7 @@
             <slots>3,1,0,0,0,0,0</slots>
             <feature>
                 <name>Weapon and Armor Proficiencies</name>
-                <text>A warpriest is proficient with all simple and martial weapons, as well as the favored weapon of his deity, and with all armor (heavy, light, and medium) and shields (except tower shields). If the warpriest worships a deity with unarmed strike as its favored weapon, the warpriest gains Improved Unarmed
-                    Strike as a bonus feat.</text>
+                <text>A warpriest is proficient with all simple and martial weapons, as well as the favored weapon of his deity, and with all armor (heavy, light, and medium) and shields (except tower shields). If the warpriest worships a deity with unarmed strike as its favored weapon, the warpriest gains Improved Unarmed Strike as a bonus feat.</text>
             </feature>
             <feature>
                 <name>Spells</name>
@@ -32,15 +31,14 @@
                 <text>If a warpriest also has levels in a class that grants cleric domains, the blessings he chooses must match the domains selected by that class. Subject to GM discretion, the warpriest can change his previously selected blessings or domains to make all of them conform. Warpriest blessings are described at the end of this class entry.</text>
             </feature>
             <feature>
-                <text>Deities: Gozreh, Shelyn.</text>
                 <name>Air Blessing</name>
-                <text>Zephyr’s Gift (minor): At 1st level, you can touch any
-                    one ranged weapon and enhance it with the quality of air. For 1 minute, any attacks made with the weapon take no penalties due to range. In addition, making a ranged attack with this weapon doesn’t provoke an attack of opportunity.</text>
+                <text>Deities: Gozreh, Shelyn.</text>
+                <text>Zephyr’s Gift (minor): At 1st level, you can touch any one ranged weapon and enhance it with the quality of air. For 1 minute, any attacks made with the weapon take no penalties due to range. In addition, making a ranged attack with this weapon doesn’t provoke an attack of opportunity.</text>
                 <text>Soaring Assault (major): At 10th level, you can touch an ally and give her the gift of flight for 1 minute (as fly). The ally gains a fly speed of 60 feet with average maneuverability. She gains a bonus on Fly checks equal to your level. Whenever the ally succeeds at a charge attack while flying, that attack deals an amount of additional electricity damage equal to your level.</text>
             </feature>
             <feature>
-                <text>Deities: Erastil, Gozreh.</text>
                 <name>Animal Blessing</name>
+                <text>Deities: Erastil, Gozreh.</text>
                 <text>Animal Fury (minor): At 1st level, you can touch one ally and grant it feral features for 1 minute. The ally gains two claw attacks that each deal 1d6 points of damage if the ally is Medium or 1d4 points if it’s Small, or one bite attack that deals 1d8 points of damage if the ally is Medium or 1d6 points if it’s Small. These are primary natural attacks that replace any similar primary natural attacks the ally might have.</text>
                 <text>Battle Companion (major): At 10th level, you can summon a battle companion. This ability functions as summon nature’s ally V, but with a duration of 1 minute. This ability can summon only one animal, regardless of the list used. For every 2 levels beyond 10th, the level of the summon nature’s ally spell increases by 1 (to a maximum of summon nature’s ally IX at 18th level).</text>
             </feature>
@@ -77,8 +75,7 @@
             <feature>
                 <name>Death Blessing</name>
                 <text>Deities: Norgorber, Pharasma, Urgathoa, Zon-Kuthon.</text>
-                <text>From the Grave (minor): At 1st level, you can take on a corpse-like visage for 1 minute, making you more intimidating and giving you undead-like protection from harm. You gain a +4 bonus on Disguise checks to resemble an undead creature and on Intimidate checks, as well as a +2 profane bonus on saving throws against disease, mind-
-                    affecting effects, paralysis, poison, and stunning.</text>
+                <text>From the Grave (minor): At 1st level, you can take on a corpse-like visage for 1 minute, making you more intimidating and giving you undead-like protection from harm. You gain a +4 bonus on Disguise checks to resemble an undead creature and on Intimidate checks, as well as a +2 profane bonus on saving throws against disease, mind-affecting effects, paralysis, poison, and stunning.</text>
                 <text>Death’s Touch (major): At 10th level, you can make a melee touch attack against an opponent to deliver grim suffering. If you succeed, you inflict 1 temporary negative level on the target for 1 minute. Alternatively, you can activate this ability as a swift action when you hit an opponent with a melee attack. These temporary negative levels stack. You gain no benefit from imposing these negative levels (such as the temporary hit points undead gain from enervation).</text>
             </feature>
             <feature>
