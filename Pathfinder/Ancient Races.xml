@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><compendium version="PF">
+    <!-- Ancient Dwarf Race -->
     <race>
         <name>Ancient Dwarf</name>
         <ability>Str 1</ability>
         <ability>Con 2</ability>
         <ability>Wis 1</ability>
         <size>M</size>
-        <speed>20</size>
+        <speed>20</speed>
         <trait>
             <name>Ancient</name>
             <text>The ancient races are as old as time itself, giving them all a unique viewpoint on the world and it’s happenings. An ancient has the following features.</text>
@@ -14,8 +15,254 @@
             <text> • Ancients are immortal and do not suffer the effects of age. Because of their longevity, they have a +4 racial bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained.</text>
             <text> • Ancients were created by their gods using raw divine magic. They have spell resistance equal to 6 + their character level.</text>
             <text> • Ancients gain an additional skill rank at 1st level and one additional skill rank whenever they gain a level. </text>
-            <special></special>
-            <modifier></modifier>
+            <modifier>skill Handle Animal +2</modifier>
+            <modifier>skill Knowledge (arcana) +4</modifier>
+            <modifier>skill Knowledge (dungeoneering) +4</modifier>
+            <modifier>skill Knowledge (engineering) +4</modifier>
+            <modifier>skill Knowledge (geography) +4</modifier>
+            <modifier>skill Knowledge (history) +4</modifier>
+            <modifier>skill Knowledge (local) +4</modifier>
+            <modifier>skill Knowledge (nature) +4</modifier>
+            <modifier>skill Knowledge (nobility) +4</modifier>
+            <modifier>skill Knowledge (planes) +4</modifier>
+            <modifier>skill Knowledge (religion) +4</modifier>
+            <modifier>skill Profession +4</modifier>
+            <modifier>bonus Skill Points Per Level +1</modifier>
+        </trait>
+        <trait>
+            <name>Slow and Sturdy</name>
+            <text>Dwarves have a base speed of 20 feet, but their speed is never modified by armor or encumbrance.</text>
+        </trait>
+        <trait>
+            <name>Darkvision</name>
+            <text>Dwarves can see in the dark up to 60 feet.</text>
+        </trait>
+        <trait>
+            <name>Hardy</name>
+            <text>Dwarves receive a +2 racial bonus on saving throws against poison, spells, and spell-like abilities.</text>
+        </trait>
+        <trait>
+            <name>Stability</name>
+            <text>Dwarves receive a +2 racial bonus to their Combat Maneuver Defense when resisting a bull rush or trip attempt while standing on the ground.</text>
+        </trait>
+        <trait>
+            <name>Stonecunning</name>
+            <text>Dwarves receive a +2 bonus on Perception checks to potentially notice unusual stonework, such as traps and hidden doors located in stone walls or floors. They receive a check to notice such features whenever they pass within 10 feet of them, whether or not they are actively looking.</text>
+        </trait>
+        <trait>
+            <name>Master Craftsman</name>
+            <text>Dwarves gain a +2 racial bonus on all Craft or Profession checks or a +4 bonus to create objects from metal or stone.</text>
+            <modifier>skill Craft +2</modifier>
+            <modifier>skill Profession +2</modifier>
+        </trait>
+        <trait>
+            <name>Wealth of the Mountain</name>
+            <text>Dwarves gain a +2 bonus on Appraise checks to determine the price of nonmagical goods that contain precious metals or gemstones.</text>
+        </trait>
+        <trait>
+            <name>Stubborn</name>
+            <text>Dwarves gain a +2 racial bonus on Will saving throws to resist spells and spell-like abilities of the enchantment (charm) and enchantment (compulsion) subschools. In addition, if a dwarf fails such a save, it receives another save 1 round later to prematurely end the effect (assuming the spell or spell-like ability has a duration greater than 1 round). This second save is made at the same DC as the first. If the member of the race has a similar ability from another source (such as a rogue’s slippery mind class feature), it can only use one of these abilities per round, but can try the other on the second round if the first reroll ability fails.</text>
+        </trait>
+        <trait>
+            <name>Stoneseer</name>
+            <text>Dwarves add +1 to the caster level of any spells with the earth descriptor they cast. They also gain the following spell-like abilities: constant—nondetection; 1/ day—magic stone, stone shape, stone tell. The caster level for these spell-like abilities is equal to the user’s character level.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>Dwarves begin play speaking Common, Primordial, and Dwarven. Dwarves with high Intelligence scores can choose from the following: Draconic, Elven, and Undercommon.</text>
+        </trait>
+    </race>
+    
+    <!-- Ancient Elf Race -->
+    <race>
+        <name>Ancient Elf</name>
+        <ability>Dex 1</ability>
+        <ability>Wis 1</ability>
+        <ability>Cha 2</ability>
+        <size>M</size>
+        <speed>30</speed>
+        <trait>
+            <name>Ancient</name>
+            <text>The ancient races are as old as time itself, giving them all a unique viewpoint on the world and it’s happenings. An ancient has the following features.</text>
+            <text> • Ancients gain a +1 bonus to any two ability scores, and a +2 bonus to any other ability score.</text>
+            <text> • Ancients, having grown with the world and it’s animal life, have a +2 racial bonus on Handle Animal skill checks. In addition, they can use the speak with animals spell as an at-will spell-like ability. The caster’s level of the spell is equal to the user’s character level.</text>
+            <text> • Ancients are immortal and do not suffer the effects of age. Because of their longevity, they have a +4 racial bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained.</text>
+            <text> • Ancients were created by their gods using raw divine magic. They have spell resistance equal to 6 + their character level.</text>
+            <text> • Ancients gain an additional skill rank at 1st level and one additional skill rank whenever they gain a level. </text>
+            <modifier>skill Handle Animal +2</modifier>
+            <modifier>skill Knowledge (arcana) +4</modifier>
+            <modifier>skill Knowledge (dungeoneering) +4</modifier>
+            <modifier>skill Knowledge (engineering) +4</modifier>
+            <modifier>skill Knowledge (geography) +4</modifier>
+            <modifier>skill Knowledge (history) +4</modifier>
+            <modifier>skill Knowledge (local) +4</modifier>
+            <modifier>skill Knowledge (nature) +4</modifier>
+            <modifier>skill Knowledge (nobility) +4</modifier>
+            <modifier>skill Knowledge (planes) +4</modifier>
+            <modifier>skill Knowledge (religion) +4</modifier>
+            <modifier>skill Profession +4</modifier>
+            <modifier>bonus Skill Points Per Level +1</modifier>
+        </trait>
+        <trait>
+            <name>Low-Light Vision</name>
+            <text>Elves can see twice as far as humans in conditions of dim light.</text>
+        </trait>
+        <trait>
+            <name>Elven Immunities</name>
+            <text>Elves are immune to magic sleep effects and get a +2 racial saving throw bonus against enchantment spells and effects.</text>
+        </trait>
+        <trait>
+            <name>Elven Magic</name>
+            <text>Elves receive a +2 racial bonus on caster level checks made to overcome spell resistance. In addition, elves receive a +2 racial bonus on Spellcraft skill checks made to identify the properties of magic items.</text>
+        </trait>
+        <trait>
+            <name>Keen Senses</name>
+            <text>Elves receive a +2 racial bonus on Perception skill checks.</text>
+            <modifier>skill Perception +2</modifier>
+        </trait>
+        <trait>
+            <name>Agile Footing</name>
+            <text>Elves receive a +2 racial bonus of Acrobatic skill checks.</text>
+            <modifier>skill Acrobatics +2</modifier>
+        </trait>
+        <trait>
+            <name>Emissary</name>
+            <text>Once per day, elves can roll twice when making a Bluff or Diplomacy check and take the better roll.</text>
+        </trait>
+        <trait>
+            <name>Bond to the Forests</name>
+            <text>Elves gain a +2 dodge bonus to AC when in forests or other wooded areas.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>Elves begin play speaking Common, Primordial, and Elven. Elves with high Intelligence scores can choose from the following: Draconic, Dwarven, and Sylvan.</text>
+        </trait>
+    </race>
+    
+    <!-- Ancient Vampire Race -->
+    <race>
+        <name>Ancient Vampire</name>
+        <ability>Str 1</ability>
+        <ability>Dex 2</ability>
+        <ability>Cha 1</ability>
+        <size>M</size>
+        <speed>30</speed>
+        <trait>
+            <name>Ancient</name>
+            <text>The ancient races are as old as time itself, giving them all a unique viewpoint on the world and it’s happenings. An ancient has the following features.</text>
+            <text> • Ancients gain a +1 bonus to any two ability scores, and a +2 bonus to any other ability score.</text>
+            <text> • Ancients, having grown with the world and it’s animal life, have a +2 racial bonus on Handle Animal skill checks. In addition, they can use the speak with animals spell as an at-will spell-like ability. The caster’s level of the spell is equal to the user’s character level.</text>
+            <text> • Ancients are immortal and do not suffer the effects of age. Because of their longevity, they have a +4 racial bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained.</text>
+            <text> • Ancients were created by their gods using raw divine magic. They have spell resistance equal to 6 + their character level.</text>
+            <text> • Ancients gain an additional skill rank at 1st level and one additional skill rank whenever they gain a level. </text>
+            <modifier>skill Handle Animal +2</modifier>
+            <modifier>skill Knowledge (arcana) +4</modifier>
+            <modifier>skill Knowledge (dungeoneering) +4</modifier>
+            <modifier>skill Knowledge (engineering) +4</modifier>
+            <modifier>skill Knowledge (geography) +4</modifier>
+            <modifier>skill Knowledge (history) +4</modifier>
+            <modifier>skill Knowledge (local) +4</modifier>
+            <modifier>skill Knowledge (nature) +4</modifier>
+            <modifier>skill Knowledge (nobility) +4</modifier>
+            <modifier>skill Knowledge (planes) +4</modifier>
+            <modifier>skill Knowledge (religion) +4</modifier>
+            <modifier>skill Profession +4</modifier>
+            <modifier>bonus Skill Points Per Level +1</modifier>
+        </trait>
+        <trait>
+            <name>Accustomed To Darkness</name>
+            <text>Vampires can see perfectly in the dark of any kind, including darkness created by spells such as deeper darkness.</text>
+        </trait>
+        <trait>
+            <name>All-Around Vision</name>
+            <text>Vampires gain a +4 racial bonus on Perception checks and are immune to flanking.</text>
+            <modifier>skill Perception +4</modifier>
+        </trait>
+        <trait>
+            <name>Light Blindness</name>
+            <text>Abrupt exposure to bright light blinds vampires for 1 round; on subsequent rounds, they remain dazzled as long as they remain in the affected area.</text>
+        </trait>
+        <trait>
+            <name>Erebus' Blessing</name>
+            <text>Vampires have no Constitution score. Any DCs or other statistics that rely on a Constitution score treat an ancient vampire as having a score of 10 (no bonus or penalty). Vampires do not need to eat, sleep, or breathe. They are also immune to diseases, poisons, bleed, death effects, energy drain, sleep effects, exhaustion, and fatigue.</text>
+        </trait>
+        <trait>
+            <name>Nature Allergy</name>
+            <text>If a vampire is hit by a stone, wood, or glass weapon the weapon deals an additional damage die; if a creature makes a critical strike on a vampire, its critical damage deals 1x more. (i.e. Normal weapon 2d6 Glass, becomes 4d6 and critical normally deals x2 becomes x3)</text>
+        </trait>
+        <trait>
+            <name>Stalker</name>
+            <text>Perception and Stealth are always class skills for vampires.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>Vampires begin play speaking Common, and Primordial. Vampires with high Intelligence scores can choose from the following: Draconic, Dwarven, and Elven.</text>
+        </trait>
+    </race>
+    
+    <!-- Ancient Werewolf Race -->
+    <race>
+        <name>Ancient Werewolf</name>
+        <ability>Str 2</ability>
+        <ability>Con 1</ability>
+        <ability>Int 1</ability>
+        <size>M</size>
+        <speed>30</speed>
+        <trait>
+            <name>Ancient</name>
+            <text>The ancient races are as old as time itself, giving them all a unique viewpoint on the world and it’s happenings. An ancient has the following features.</text>
+            <text> • Ancients gain a +1 bonus to any two ability scores, and a +2 bonus to any other ability score.</text>
+            <text> • Ancients, having grown with the world and it’s animal life, have a +2 racial bonus on Handle Animal skill checks. In addition, they can use the speak with animals spell as an at-will spell-like ability. The caster’s level of the spell is equal to the user’s character level.</text>
+            <text> • Ancients are immortal and do not suffer the effects of age. Because of their longevity, they have a +4 racial bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained.</text>
+            <text> • Ancients were created by their gods using raw divine magic. They have spell resistance equal to 6 + their character level.</text>
+            <text> • Ancients gain an additional skill rank at 1st level and one additional skill rank whenever they gain a level. </text>
+            <modifier>skill Handle Animal +2</modifier>
+            <modifier>skill Knowledge (arcana) +4</modifier>
+            <modifier>skill Knowledge (dungeoneering) +4</modifier>
+            <modifier>skill Knowledge (engineering) +4</modifier>
+            <modifier>skill Knowledge (geography) +4</modifier>
+            <modifier>skill Knowledge (history) +4</modifier>
+            <modifier>skill Knowledge (local) +4</modifier>
+            <modifier>skill Knowledge (nature) +4</modifier>
+            <modifier>skill Knowledge (nobility) +4</modifier>
+            <modifier>skill Knowledge (planes) +4</modifier>
+            <modifier>skill Knowledge (religion) +4</modifier>
+            <modifier>skill Profession +4</modifier>
+            <modifier>bonus Skill Points Per Level +1</modifier>
+        </trait>
+        <trait>
+            <name>Low-Light Vision</name>
+            <text>Werewolves can see twice as far as a human in conditions of dim-light.</text>
+        </trait>
+        <trait>
+            <name>Scent</name>
+            <text>Werewolves gain the scent ability (Bestiary 304).</text>
+        </trait>
+        <trait>
+            <name>Relentless</name>
+            <text>Werewolves gain a +2 bonus on combat maneuver checks made to bull rush or overrun an opponent. This bonus only applies while both the member of this race and its opponent are standing on the ground.</text>
+        </trait>
+        <trait>
+            <name>Beast Form</name>
+            <text>A werewolf can assume its Beast Form a number of times per day equal to its character level divided by 4. While in combat it requires an action to take Beast Form. If knocked unconscious a werewolf assumes its normal form. It can remain in its Beast Form for a number of minutes equal to 5 times the number of times it can transform per day. If it remains in its Beast Form longer than the allowed time, it becomes fatigued for 8 hours, once it assumes its normal form. </text>
+            <text>While in Beast Form, a werewolf gains the following features:</text>
+            <text>Advanced Strength: +2 Strength</text>
+            <text>Enhanced Constitution: +1 Constitution</text>
+            <text>Beastial Scent: +4 on Perception and Survival (Scent Only, tracking)</text>
+            <text>Darkvision 60ft.</text>
+            <text>Beast Mind: While in beast form a Werewolf can not cast concentration spells.</text>
+            <text>Increased Movement: While in beast form a Werewolf gains a +10 base movement speed.</text>
+            <text>Superior Bite: A Werewolf can make a bit attack dealing 1d8 Bludgeoning, Slashing, or Piercing damage.</text>
+            <text>Superior Claw: A Werewolf can make two claw attacks per round dealing 1d6 Bludgeoning or Slashing damage.</text>
+            <text>Increased Size: While in beast form a Werewolf is considered Large while still being Medium. It takes all the benefits and determents of being Large.</text>
+        </trait>
+        <trait>
+            <name>Silver Allergy</name>
+            <text>If an Ancient Werewolf is hit by a Silvered weapon the weapon deals an additional damage die, if a creature makes a critical strike on an Ancient Werewolf, its critical damage deals 1x more. (i.e. Normal weapon 2d6 Silver, becomes 4d6 and critical normally deals x2 becomes x3)</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>Ancient Vampires begin play speaking Common, and Primordial. Ancient Vampires with high Intelligence scores can choose from the following: Draconic, Dwarven, and Elven.</text>
         </trait>
     </race>
 </compendium>
