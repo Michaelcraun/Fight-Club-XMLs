@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><compendium version="PF">
+    <race>
+        <name>Ancient Dwarf</name>
+        <ability>Str 1</ability>
+        <ability>Con 2</ability>
+        <ability>Wis 1</ability>
+        <size>M</size>
+        <speed>20</size>
+        <trait>
+            <name>Ancient</name>
+            <text>The ancient races are as old as time itself, giving them all a unique viewpoint on the world and it’s happenings. An ancient has the following features.</text>
+            <text> • Ancients gain a +1 bonus to any two ability scores, and a +2 bonus to any other ability score.</text>
+            <text> • Ancients, having grown with the world and it’s animal life, have a +2 racial bonus on Handle Animal skill checks. In addition, they can use the speak with animals spell as an at-will spell-like ability. The caster’s level of the spell is equal to the user’s character level.</text>
+            <text> • Ancients are immortal and do not suffer the effects of age. Because of their longevity, they have a +4 racial bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained.</text>
+            <text> • Ancients were created by their gods using raw divine magic. They have spell resistance equal to 6 + their character level.</text>
+            <text> • Ancients gain an additional skill rank at 1st level and one additional skill rank whenever they gain a level. </text>
+            <special></special>
+            <modifier></modifier>
+        </trait>
+    </race>
+</compendium>

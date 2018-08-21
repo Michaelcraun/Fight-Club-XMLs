@@ -5,8 +5,12 @@
         <skills>Climb (Str), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (engineering) (Int), Knowledge (religion) (Int), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spellcraft (Int), Survival (Wis), and Swim (Str)</skills>
         <skillPoints>2</skillPoints>
         <wealth>5d6*10</wealth>
-        <spellAbility></spellAbility>
+        <spellAbility>Wisdom</spellAbility>
         <autolevel level = "1">
+            <bab>0</bab>
+            <fort>2</fort>
+            <ref>0</ref>
+            <will>2</will>
             <slots>3,1,0,0,0,0,0</slots>
             <feature>
                 <name>Weapon and Armor Proficiencies</name>
@@ -259,6 +263,10 @@
             </feature>
         </autolevel>
         <autolevel level = "2">
+            <bab>1</bab>
+            <fort>3</fort>
+            <ref>0</ref>
+            <will>3</will>
             <slots>4,2,0,0,0,0,0</slots>
             <feature>
                 <name>Fervor (Su)</name>
@@ -270,6 +278,10 @@
             </feature>
         </autolevel>
         <autolevel level = "3">
+            <bab>2</bab>
+            <fort>3</fort>
+            <ref>1</ref>
+            <will>3</will>
             <slots>4,3,0,0,0,0,0</slots>
             <feature>
                 <name>Bonus Feats</name>
@@ -277,6 +289,10 @@
             </feature>
         </autolevel>
         <autolevel level = "4">
+            <bab>3</bab>
+            <fort>4</fort>
+            <ref>1</ref>
+            <will>4</will>
             <slots>4,3,1,0,0,0,0</slots>
             <feature>
                 <name>Channel Energy (Su)</name>
@@ -286,12 +302,24 @@
             </feature>
         </autolevel>
         <autolevel level = "5">
+            <bab>3</bab>
+            <fort>4</fort>
+            <ref>1</ref>
+            <will>4</will>
             <slots>4,4,2,0,0,0,0</slots>
         </autolevel>
         <autolevel level = "6">
-            <slots>5,4,3</slots>
+            <bab>4</bab>
+            <fort>5</fort>
+            <ref>2</ref>
+            <will>5</will>
+            <slots>5,4,3,0,0,0,0</slots>
         </autolevel>
         <autolevel level = "7">
+            <bab>5</bab>
+            <fort>5</fort>
+            <ref>2</ref>
+            <will>5</will>
             <slots>5,4,3,1,0,0,0</slots>
             <feature>
                 <name>Sacred Armor (Su)</name>
@@ -302,42 +330,94 @@
             </feature>
         </autolevel>
         <autolevel level = "8">
+            <bab>6,1</bab>
+            <fort>5</fort>
+            <ref>2</ref>
+            <will>5</will>
             <slots>5,4,4,2,0,0,0</slots>
         </autolevel>
         <autolevel level = "9">
+            <bab>6,1</bab>
+            <fort>6</fort>
+            <ref>3</ref>
+            <will>6</will>
             <slots>5,5,4,3,0.0,0</slots>
         </autolevel>
         <autolevel level = "10">
+            <bab>7,2</bab>
+            <fort>7</fort>
+            <ref>3</ref>
+            <will>7</will>
             <slots>5,5,4,3,1,0,0</slots>
         </autolevel>
         <autolevel level = "11">
+            <bab>8,3</bab>
+            <fort>7</fort>
+            <ref>3</ref>
+            <will>7</will>
             <slots>5,5,4,4,2,0,0</slots>
         </autolevel>
         <autolevel level = "12">
+            <bab>9,4</bab>
+            <fort>8</fort>
+            <ref>4</ref>
+            <will>8</will>
             <slots>5,5,5,4,3,0,0</slots>
         </autolevel>
         <autolevel level = "13">
+            <bab>9,4</bab>
+            <fort>8</fort>
+            <ref>4</ref>
+            <will>8</will>
             <slots>5,5,5,4,3,1,0</slots>
         </autolevel>
         <autolevel level = "14">
+            <bab>10,5</bab>
+            <fort>9</fort>
+            <ref>4</ref>
+            <will>9</will>
             <slots>5,5,5,4,4,2,0</slots>
         </autolevel>
         <autolevel level = "15">
+            <bab>11,6,1</bab>
+            <fort>9</fort>
+            <ref>5</ref>
+            <will>9</will>
             <slots>5,5,5,5,4,3,0</slots>
         </autolevel>
         <autolevel level = "16">
+            <bab>12,7,2</bab>
+            <fort>10</fort>
+            <ref>5</ref>
+            <will>10</will>
             <slots>5,5,5,5,4,3,1</slots>
         </autolevel>
         <autolevel level = "17">
+            <bab>12,7,2</bab>
+            <fort>10</fort>
+            <ref>5</ref>
+            <will>10</will>
             <slots>5,5,5,5,4,4,2</slots>
         </autolevel>
         <autolevel level = "18">
+            <bab>13,8,3</bab>
+            <fort>11</fort>
+            <ref>6</ref>
+            <will>11</will>
             <slots>5,5,5,5,5,4,3</slots>
         </autolevel>
         <autolevel level = "19">
+            <bab>14,9,4</bab>
+            <fort>11</fort>
+            <ref>6</ref>
+            <will>11</will>
             <slots>5,5,5,5,5,5,4</slots>
         </autolevel>
         <autolevel level = "20">
+            <bab>15,10,5</bab>
+            <fort>12</fort>
+            <ref>6</ref>
+            <will>12</will>
             <slots>5,5,5,5,5,5,5</slots>
             <feature>
                 <name>Aspect of War (Su)</name>
