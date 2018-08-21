@@ -1,4 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?><compendium version="PF">
+    <!-- Ancient Dragon Race -->
+    <race>
+        <name>Ancient Dragon</name>
+        <ability>Str 2</ability>
+        <ability>Con 1</ability>
+        <ability>Int 3</ability>
+        <size>M</size>
+        <speed>30</speed>
+        <trait>
+            <name>Ancient</name>
+            <text>The ancient races are as old as time itself, giving them all a unique viewpoint on the world and it’s happenings. An ancient has the following features.</text>
+            <text> • Ancients gain a +1 bonus to any two ability scores, and a +2 bonus to any other ability score.</text>
+            <text> • Ancients, having grown with the world and it’s animal life, have a +2 racial bonus on Handle Animal skill checks. In addition, they can use the speak with animals spell as an at-will spell-like ability. The caster’s level of the spell is equal to the user’s character level.</text>
+            <text> • Ancients are immortal and do not suffer the effects of age. Because of their longevity, they have a +4 racial bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained.</text>
+            <text> • Ancients were created by their gods using raw divine magic. They have spell resistance equal to 6 + their character level.</text>
+            <text> • Ancients gain an additional skill rank at 1st level and one additional skill rank whenever they gain a level. </text>
+            <modifier>skill Handle Animal +2</modifier>
+            <modifier>skill Knowledge (arcana) +4</modifier>
+            <modifier>skill Knowledge (dungeoneering) +4</modifier>
+            <modifier>skill Knowledge (engineering) +4</modifier>
+            <modifier>skill Knowledge (geography) +4</modifier>
+            <modifier>skill Knowledge (history) +4</modifier>
+            <modifier>skill Knowledge (local) +4</modifier>
+            <modifier>skill Knowledge (nature) +4</modifier>
+            <modifier>skill Knowledge (nobility) +4</modifier>
+            <modifier>skill Knowledge (planes) +4</modifier>
+            <modifier>skill Knowledge (religion) +4</modifier>
+            <modifier>skill Profession +4</modifier>
+            <modifier>bonus Skill Points Per Level +1</modifier>
+        </trait>
+        <trait>
+            <name>Low-Light Vision</name>
+            <text>Dragons can see twice as far as humans in conditions of dim light.</text>
+        </trait>
+        <trait>
+            <name>Natural Armor, Improved</name>
+            <text>Dragons gain a +1 natural armor bonus.</text>
+            <modifier>bonus AC +1</modifier>
+        </trait>
+        <trait>
+            <name>Energy Resistance</name>
+            <text>Dragons have resistance 5 to the energy type corresponding to their dragon type.</text>
+        </trait>
+        <trait>
+            <name>Breath Weapon</name>
+            <text>TODO: Add description!</text>
+        </trait>
+        <trait>
+            <name>Flight</name>
+            <text>Dragons have a fly speed of 50 feet with average maneuverability.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>Dragons begin play speaking Common, Primordial, and Draconic. Dragons with high Intelligence scores can choose from the following: Elven and Undercommon.</text>
+        </trait>
+    </race>
+    
     <!-- Ancient Dwarf Race -->
     <race>
         <name>Ancient Dwarf</name>
