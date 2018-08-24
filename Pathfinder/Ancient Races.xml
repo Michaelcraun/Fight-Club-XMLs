@@ -15,40 +15,40 @@
             <text> • Ancients are immortal and do not suffer the effects of age. Because of their longevity, they have a +4 racial bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained.</text>
             <text> • Ancients were created by their gods using raw divine magic. They have spell resistance equal to 6 + their character level.</text>
             <text> • Ancients gain an additional skill rank at 1st level and one additional skill rank whenever they gain a level. </text>
-            <modifier>skill Handle Animal +2</modifier>
-            <modifier>skill Knowledge (arcana) +4</modifier>
-            <modifier>skill Knowledge (dungeoneering) +4</modifier>
-            <modifier>skill Knowledge (engineering) +4</modifier>
-            <modifier>skill Knowledge (geography) +4</modifier>
-            <modifier>skill Knowledge (history) +4</modifier>
-            <modifier>skill Knowledge (local) +4</modifier>
-            <modifier>skill Knowledge (nature) +4</modifier>
-            <modifier>skill Knowledge (nobility) +4</modifier>
-            <modifier>skill Knowledge (planes) +4</modifier>
-            <modifier>skill Knowledge (religion) +4</modifier>
-            <modifier>skill Profession +4</modifier>
-            <modifier>bonus Skill Points Per Level +1</modifier>
+            <modifier category = "skill">Handle Animal +2</modifier>
+            <modifier category = "skill">Knowledge (arcana) +4</modifier>
+            <modifier category = "skill">Knowledge (dungeoneering) +4</modifier>
+            <modifier category = "skill">Knowledge (engineering) +4</modifier>
+            <modifier category = "skill">Knowledge (geography) +4</modifier>
+            <modifier category = "skill">Knowledge (history) +4</modifier>
+            <modifier category = "skill">Knowledge (local) +4</modifier>
+            <modifier category = "skill">Knowledge (nature) +4</modifier>
+            <modifier category = "skill">Knowledge (nobility) +4</modifier>
+            <modifier category = "skill">Knowledge (planes) +4</modifier>
+            <modifier category = "skill">Knowledge (religion) +4</modifier>
+            <modifier category = "skill">Profession +4</modifier>
+            <modifier category = "bonus">Skill Points Per Level +1</modifier>
+        </trait>
+        <trait>
+            <name>Flight</name>
+            <text>Dragons have a fly speed of 50 feet with average maneuverability.</text>
         </trait>
         <trait>
             <name>Low-Light Vision</name>
             <text>Dragons can see twice as far as humans in conditions of dim light.</text>
         </trait>
         <trait>
-            <name>Natural Armor, Improved</name>
-            <text>Dragons gain a +1 natural armor bonus.</text>
-            <modifier>bonus AC +1</modifier>
+            <name>Breath Weapon</name>
+            <text>Once per day, as a standard action, dragons can make a supernatural breath weapon attack that deals 1d6 points of the damage type corresponding to the type chosen at character creation in the area designated by their selected type. All creatures within the affected area must make a Reflex saving throw to avoid taking damage. The save DC against this breath weapon is 10 + 1/2 the user’s character level + the user’s Constitution modifier. Those who succeed at the save take no damage from the attack.</text>
         </trait>
         <trait>
             <name>Energy Resistance</name>
             <text>Dragons have resistance 5 to the energy type corresponding to their dragon type.</text>
         </trait>
         <trait>
-            <name>Breath Weapon</name>
-            <text>TODO: Add description!</text>
-        </trait>
-        <trait>
-            <name>Flight</name>
-            <text>Dragons have a fly speed of 50 feet with average maneuverability.</text>
+            <name>Improved Natural Armor</name>
+            <text>Dragons gain a +1 natural armor bonus.</text>
+            <modifier>bonus AC +1</modifier>
         </trait>
         <trait>
             <name>Languages</name>
@@ -72,19 +72,19 @@
             <text> • Ancients are immortal and do not suffer the effects of age. Because of their longevity, they have a +4 racial bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained.</text>
             <text> • Ancients were created by their gods using raw divine magic. They have spell resistance equal to 6 + their character level.</text>
             <text> • Ancients gain an additional skill rank at 1st level and one additional skill rank whenever they gain a level. </text>
-            <modifier>skill Handle Animal +2</modifier>
-            <modifier>skill Knowledge (arcana) +4</modifier>
-            <modifier>skill Knowledge (dungeoneering) +4</modifier>
-            <modifier>skill Knowledge (engineering) +4</modifier>
-            <modifier>skill Knowledge (geography) +4</modifier>
-            <modifier>skill Knowledge (history) +4</modifier>
-            <modifier>skill Knowledge (local) +4</modifier>
-            <modifier>skill Knowledge (nature) +4</modifier>
-            <modifier>skill Knowledge (nobility) +4</modifier>
-            <modifier>skill Knowledge (planes) +4</modifier>
-            <modifier>skill Knowledge (religion) +4</modifier>
-            <modifier>skill Profession +4</modifier>
-            <modifier>bonus Skill Points Per Level +1</modifier>
+            <modifier category = "skill">Handle Animal +2</modifier>
+            <modifier category = "skill">Knowledge (arcana) +4</modifier>
+            <modifier category = "skill">Knowledge (dungeoneering) +4</modifier>
+            <modifier category = "skill">Knowledge (engineering) +4</modifier>
+            <modifier category = "skill">Knowledge (geography) +4</modifier>
+            <modifier category = "skill">Knowledge (history) +4</modifier>
+            <modifier category = "skill">Knowledge (local) +4</modifier>
+            <modifier category = "skill">Knowledge (nature) +4</modifier>
+            <modifier category = "skill">Knowledge (nobility) +4</modifier>
+            <modifier category = "skill">Knowledge (planes) +4</modifier>
+            <modifier category = "skill">Knowledge (religion) +4</modifier>
+            <modifier category = "skill">Profession +4</modifier>
+            <modifier category = "bonus">Skill Points Per Level +1</modifier>
         </trait>
         <trait>
             <name>Slow and Sturdy</name>
@@ -99,30 +99,30 @@
             <text>Dwarves receive a +2 racial bonus on saving throws against poison, spells, and spell-like abilities.</text>
         </trait>
         <trait>
+            <name>Stubborn</name>
+            <text>Dwarves gain a +2 racial bonus on Will saving throws to resist spells and spell-like abilities of the enchantment (charm) and enchantment (compulsion) subschools. In addition, if a dwarf fails such a save, it receives another save 1 round later to prematurely end the effect (assuming the spell or spell-like ability has a duration greater than 1 round). This second save is made at the same DC as the first. If the member of the race has a similar ability from another source (such as a rogue’s slippery mind class feature), it can only use one of these abilities per round, but can try the other on the second round if the first reroll ability fails.</text>
+        </trait>
+        <trait>
             <name>Stability</name>
             <text>Dwarves receive a +2 racial bonus to their Combat Maneuver Defense when resisting a bull rush or trip attempt while standing on the ground.</text>
+        </trait>
+        <trait>
+            <name>Stoneseer</name>
+            <text>Dwarves add +1 to the caster level of any spells with the earth descriptor they cast. They also gain the following spell-like abilities: constant—nondetection; 1/ day—magic stone, stone shape, stone tell. The caster level for these spell-like abilities is equal to the user’s character level.</text>
         </trait>
         <trait>
             <name>Stonecunning</name>
             <text>Dwarves receive a +2 bonus on Perception checks to potentially notice unusual stonework, such as traps and hidden doors located in stone walls or floors. They receive a check to notice such features whenever they pass within 10 feet of them, whether or not they are actively looking.</text>
         </trait>
         <trait>
-            <name>Master Craftsman</name>
-            <text>Dwarves gain a +2 racial bonus on all Craft or Profession checks or a +4 bonus to create objects from metal or stone.</text>
-            <modifier>skill Craft +2</modifier>
-            <modifier>skill Profession +2</modifier>
-        </trait>
-        <trait>
             <name>Wealth of the Mountain</name>
             <text>Dwarves gain a +2 bonus on Appraise checks to determine the price of nonmagical goods that contain precious metals or gemstones.</text>
         </trait>
         <trait>
-            <name>Stubborn</name>
-            <text>Dwarves gain a +2 racial bonus on Will saving throws to resist spells and spell-like abilities of the enchantment (charm) and enchantment (compulsion) subschools. In addition, if a dwarf fails such a save, it receives another save 1 round later to prematurely end the effect (assuming the spell or spell-like ability has a duration greater than 1 round). This second save is made at the same DC as the first. If the member of the race has a similar ability from another source (such as a rogue’s slippery mind class feature), it can only use one of these abilities per round, but can try the other on the second round if the first reroll ability fails.</text>
-        </trait>
-        <trait>
-            <name>Stoneseer</name>
-            <text>Dwarves add +1 to the caster level of any spells with the earth descriptor they cast. They also gain the following spell-like abilities: constant—nondetection; 1/ day—magic stone, stone shape, stone tell. The caster level for these spell-like abilities is equal to the user’s character level.</text>
+            <name>Master Craftsman</name>
+            <text>Dwarves gain a +2 racial bonus on all Craft or Profession checks or a +4 bonus to create objects from metal or stone.</text>
+            <modifier category = "skill">Craft +2</modifier>
+            <modifier category = "skill">Profession +2</modifier>
         </trait>
         <trait>
             <name>Languages</name>
@@ -146,19 +146,19 @@
             <text> • Ancients are immortal and do not suffer the effects of age. Because of their longevity, they have a +4 racial bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained.</text>
             <text> • Ancients were created by their gods using raw divine magic. They have spell resistance equal to 6 + their character level.</text>
             <text> • Ancients gain an additional skill rank at 1st level and one additional skill rank whenever they gain a level. </text>
-            <modifier>skill Handle Animal +2</modifier>
-            <modifier>skill Knowledge (arcana) +4</modifier>
-            <modifier>skill Knowledge (dungeoneering) +4</modifier>
-            <modifier>skill Knowledge (engineering) +4</modifier>
-            <modifier>skill Knowledge (geography) +4</modifier>
-            <modifier>skill Knowledge (history) +4</modifier>
-            <modifier>skill Knowledge (local) +4</modifier>
-            <modifier>skill Knowledge (nature) +4</modifier>
-            <modifier>skill Knowledge (nobility) +4</modifier>
-            <modifier>skill Knowledge (planes) +4</modifier>
-            <modifier>skill Knowledge (religion) +4</modifier>
-            <modifier>skill Profession +4</modifier>
-            <modifier>bonus Skill Points Per Level +1</modifier>
+            <modifier category = "skill">Handle Animal +2</modifier>
+            <modifier category = "skill">Knowledge (arcana) +4</modifier>
+            <modifier category = "skill">Knowledge (dungeoneering) +4</modifier>
+            <modifier category = "skill">Knowledge (engineering) +4</modifier>
+            <modifier category = "skill">Knowledge (geography) +4</modifier>
+            <modifier category = "skill">Knowledge (history) +4</modifier>
+            <modifier category = "skill">Knowledge (local) +4</modifier>
+            <modifier category = "skill">Knowledge (nature) +4</modifier>
+            <modifier category = "skill">Knowledge (nobility) +4</modifier>
+            <modifier category = "skill">Knowledge (planes) +4</modifier>
+            <modifier category = "skill">Knowledge (religion) +4</modifier>
+            <modifier category = "skill">Profession +4</modifier>
+            <modifier category = "bonus">Skill Points Per Level +1</modifier>
         </trait>
         <trait>
             <name>Low-Light Vision</name>
@@ -175,12 +175,12 @@
         <trait>
             <name>Keen Senses</name>
             <text>Elves receive a +2 racial bonus on Perception skill checks.</text>
-            <modifier>skill Perception +2</modifier>
+            <modifier category = "skill">Perception +2</modifier>
         </trait>
         <trait>
             <name>Agile Footing</name>
             <text>Elves receive a +2 racial bonus of Acrobatic skill checks.</text>
-            <modifier>skill Acrobatics +2</modifier>
+            <modifier category = "skill">Acrobatics +2</modifier>
         </trait>
         <trait>
             <name>Emissary</name>
@@ -212,19 +212,19 @@
             <text> • Ancients are immortal and do not suffer the effects of age. Because of their longevity, they have a +4 racial bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained.</text>
             <text> • Ancients were created by their gods using raw divine magic. They have spell resistance equal to 6 + their character level.</text>
             <text> • Ancients gain an additional skill rank at 1st level and one additional skill rank whenever they gain a level. </text>
-            <modifier>skill Handle Animal +2</modifier>
-            <modifier>skill Knowledge (arcana) +4</modifier>
-            <modifier>skill Knowledge (dungeoneering) +4</modifier>
-            <modifier>skill Knowledge (engineering) +4</modifier>
-            <modifier>skill Knowledge (geography) +4</modifier>
-            <modifier>skill Knowledge (history) +4</modifier>
-            <modifier>skill Knowledge (local) +4</modifier>
-            <modifier>skill Knowledge (nature) +4</modifier>
-            <modifier>skill Knowledge (nobility) +4</modifier>
-            <modifier>skill Knowledge (planes) +4</modifier>
-            <modifier>skill Knowledge (religion) +4</modifier>
-            <modifier>skill Profession +4</modifier>
-            <modifier>bonus Skill Points Per Level +1</modifier>
+            <modifier category = "skill">Handle Animal +2</modifier>
+            <modifier category = "skill">Knowledge (arcana) +4</modifier>
+            <modifier category = "skill">Knowledge (dungeoneering) +4</modifier>
+            <modifier category = "skill">Knowledge (engineering) +4</modifier>
+            <modifier category = "skill">Knowledge (geography) +4</modifier>
+            <modifier category = "skill">Knowledge (history) +4</modifier>
+            <modifier category = "skill">Knowledge (local) +4</modifier>
+            <modifier category = "skill">Knowledge (nature) +4</modifier>
+            <modifier category = "skill">Knowledge (nobility) +4</modifier>
+            <modifier category = "skill">Knowledge (planes) +4</modifier>
+            <modifier category = "skill">Knowledge (religion) +4</modifier>
+            <modifier category = "skill">Profession +4</modifier>
+            <modifier category = "bonus">Skill Points Per Level +1</modifier>
         </trait>
         <trait>
             <name>Accustomed To Darkness</name>
@@ -233,7 +233,7 @@
         <trait>
             <name>All-Around Vision</name>
             <text>Vampires gain a +4 racial bonus on Perception checks and are immune to flanking.</text>
-            <modifier>skill Perception +4</modifier>
+            <modifier category = "skill">Perception +4</modifier>
         </trait>
         <trait>
             <name>Light Blindness</name>
@@ -273,19 +273,19 @@
             <text> • Ancients are immortal and do not suffer the effects of age. Because of their longevity, they have a +4 racial bonus on all Knowledge and Profession skill checks, and can make checks with those skills untrained.</text>
             <text> • Ancients were created by their gods using raw divine magic. They have spell resistance equal to 6 + their character level.</text>
             <text> • Ancients gain an additional skill rank at 1st level and one additional skill rank whenever they gain a level. </text>
-            <modifier>skill Handle Animal +2</modifier>
-            <modifier>skill Knowledge (arcana) +4</modifier>
-            <modifier>skill Knowledge (dungeoneering) +4</modifier>
-            <modifier>skill Knowledge (engineering) +4</modifier>
-            <modifier>skill Knowledge (geography) +4</modifier>
-            <modifier>skill Knowledge (history) +4</modifier>
-            <modifier>skill Knowledge (local) +4</modifier>
-            <modifier>skill Knowledge (nature) +4</modifier>
-            <modifier>skill Knowledge (nobility) +4</modifier>
-            <modifier>skill Knowledge (planes) +4</modifier>
-            <modifier>skill Knowledge (religion) +4</modifier>
-            <modifier>skill Profession +4</modifier>
-            <modifier>bonus Skill Points Per Level +1</modifier>
+            <modifier category = "skill">Handle Animal +2</modifier>
+            <modifier category = "skill">Knowledge (arcana) +4</modifier>
+            <modifier category = "skill">Knowledge (dungeoneering) +4</modifier>
+            <modifier category = "skill">Knowledge (engineering) +4</modifier>
+            <modifier category = "skill">Knowledge (geography) +4</modifier>
+            <modifier category = "skill">Knowledge (history) +4</modifier>
+            <modifier category = "skill">Knowledge (local) +4</modifier>
+            <modifier category = "skill">Knowledge (nature) +4</modifier>
+            <modifier category = "skill">Knowledge (nobility) +4</modifier>
+            <modifier category = "skill">Knowledge (planes) +4</modifier>
+            <modifier category = "skill">Knowledge (religion) +4</modifier>
+            <modifier category = "skill">Profession +4</modifier>
+            <modifier category = "bonus">Skill Points Per Level +1</modifier>
         </trait>
         <trait>
             <name>Low-Light Vision</name>
@@ -293,7 +293,14 @@
         </trait>
         <trait>
             <name>Scent</name>
-            <text>Werewolves gain the scent ability (Bestiary 304).</text>
+            <text>Werewolves gain the scent ability, as below.</text>
+            <text>This extraordinary special quality allows a creature to detect approaching enemies, sniff out hidden foes, and track by sense of smell. Creatures with the scent ability can identify familiar odors just as humans do familiar sights.</text>
+            <text>The creature can detect opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at triple normal range.</text>
+            <text>When a creature detects a scent, the exact location of the source is not revealed—only its presence somewhere within range. The creature can take a move action to note the direction of the scent.</text>
+            <text>Whenever the creature comes within 5 feet of the source, the creature pinpoints the source’s location.</text>
+            <text>A creature with the Track feat and the scent ability can follow tracks by smell, making a Wisdom (or Survival) check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry’s odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the Track feat. Creatures tracking by scent ignore the effects of surface conditions and poor visibility.</text>
+            <text>Water, particularly running water, ruins a trail for air-breathing creatures. Water-breathing creatures that have the scent ability, however, can use it in the water easily.</text>
+            <text>False, powerful odors can easily mask other scents. The presence of such an odor completely spoils the ability to properly detect or identify creatures, and the base Survival DC to track becomes 20 rather than 10.</text>
         </trait>
         <trait>
             <name>Relentless</name>
@@ -302,16 +309,14 @@
         <trait>
             <name>Beast Form</name>
             <text>A werewolf can assume its Beast Form a number of times per day equal to its character level divided by 4. While in combat it requires an action to take Beast Form. If knocked unconscious a werewolf assumes its normal form. It can remain in its Beast Form for a number of minutes equal to 5 times the number of times it can transform per day. If it remains in its Beast Form longer than the allowed time, it becomes fatigued for 8 hours, once it assumes its normal form. </text>
-            <text>While in Beast Form, a werewolf gains the following features:</text>
-            <text>Advanced Strength: +2 Strength</text>
-            <text>Enhanced Constitution: +1 Constitution</text>
-            <text>Beastial Scent: +4 on Perception and Survival (Scent Only, tracking)</text>
-            <text>Darkvision 60ft.</text>
-            <text>Beast Mind: While in beast form a Werewolf can not cast concentration spells.</text>
-            <text>Increased Movement: While in beast form a Werewolf gains a +10 base movement speed.</text>
-            <text>Superior Bite: A Werewolf can make a bit attack dealing 1d8 Bludgeoning, Slashing, or Piercing damage.</text>
-            <text>Superior Claw: A Werewolf can make two claw attacks per round dealing 1d6 Bludgeoning or Slashing damage.</text>
-            <text>Increased Size: While in beast form a Werewolf is considered Large while still being Medium. It takes all the benefits and determents of being Large.</text>
+            <text>While in Beast Form, an ancient werewolf gains the following features:</text>
+            <text>+2 Strength, +1 Constitution: The werewolf becomes much stronger and a little more hardy.</text>
+            <text>Bestial Scent: The werewolf gains a +4 competence bonus on Perception and Survival checks made to track a creature by scent.</text>
+            <text>Darkvision: The werewolf’s Low-Light Vision is replaced with darkvision 60 feet.</text>
+            <text>Bestial Intelligence: The werewolf is unable to case concentration spells.</text>
+            <text>Increased Movement: The werewolf gains a +10 bonus to movement speed.</text>
+            <text>Natural Weapons: The werewolf can make a bite attack, dealing 1d8 piercing damage and two claw attacks, dealing 1d6 slashing damage.</text>
+            <text>Increased Size: The werewolf is considered Large, while still being Medium. It takes all the benefits and detriments of being Large.</text>
         </trait>
         <trait>
             <name>Silver Allergy</name>
