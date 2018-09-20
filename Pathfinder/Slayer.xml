@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><compendium version="PF">
+    <class>
+        <name>Slayer</name>
+        <hd>10</hd>
+        <skills>Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Disguise (Cha), Heal (Wis), Intimidate (Cha), Knowledge (dungeoneering) (Int), Knowledge (geography) (Int), Knowledge (local) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Stealth (Dex), Survival (Wis), Swim (Str)</skills>
+        <skillPoints>6</skillPoints>
+        <wealth>5d6*10</wealth>
+        <spellAbility></spellAbility>
+        <autolevel level = "1">
+            <bab>1</bab>
+            <fort>2</fort>
+            <ref>2</ref>
+            <will>0</will>
+            <feature>
+                <name>Weapon and Armor Proficiencies</name>
+                <text>A slayer is proficient with all simple and martial weapons, as well as with light armor, medium armor, and shields (except tower shields).</text>
+            </feature>
+            <feature>
+                <name>Studied Target (Ex)</name>
+                <text>A slayer can study an opponent he can see as a move action. The slayer then gains a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks attempted against that opponent, and a +1 bonus on weapon attack rolls and weapon damage rolls against it. The DCs of slayer class abilities against that opponent increase by 1. A slayer can maintain these bonuses against only one opponent at a time; these bonuses remain in effect until either the opponent is dead or the slayer studies a new target.</text>
+                <text>      If a slayer deals sneak attack damage to a target, he can study that target as an immediate action, allowing him to apply his studied target bonuses against that target (including to the normal weapon damage roll).</text>
+                <text>      At 5th, 10th, 15th, and 20th levels, the bonuses on weapon attack rolls, damage rolls, and skill checks and to the DCs of slayer abilities against a studied target increase by 1. In addition, at each such interval, the slayer is able to maintain these bonuses against an additional studied target at the same time. The slayer may discard this connection to a studied target as a free action, allowing him to study another target in its place.</text>
+                <text>      At 7th level, a slayer can study an opponent as a move or swift action.</text>
+            </feature>
+            <feature>
+                <name>Track (Ex)</name>
+                <text>A slayer adds 1/2 his level (minimum 1) to Survival checks made to follow tracks.</text>
+            </feature>
+            <feature>
+                <name>Slayer Talents</name>
+                <text>As a slayer gains experience, he learns a number of talents that aid him and confound his foes. Starting at 2nd level and every 2 levels thereafter, a slayer gains one slayer talent. Unless otherwise noted, a slayer cannot select an individual talent more than once.</text>
+                <text>      Talents marked with an asterisk (*) add effects to a slayer’s sneak attack. Only one of these talents can be applied to an individual attack, and the decision of which talent to use must be made before the attack roll is made.</text>
+                <text>      Deadly Range (Ex): A slayer with this talent increases the range at which he can deal sneak attack damage by 10 feet. A slayer can select this talent more than once; its effects stack. A slayer must be at least 4th level before selecting this talent.</text>
+                <text>      Foil Scrutiny: A slayer with this talent is able to obscure his thoughts and intentions. He gains a +2 bonus on all Bluff and Disguise checks, as well as on Will saving throws to resist mind-reading spells and effects (such as detect thoughts and discern lies).</text>
+                <text>      Poison Use (Ex): The slayer is trained in the use of poison, and cannot accidentally poison himself when applying poison to a weapon.</text>
+                <text>      Ranger Combat Style (Ex): The slayer selects a ranger combat style (such as archery or two-weapon combat) and gains a combat feat from the 1st-level feat choices for that style. He can choose feats from his chosen combat style, even if he does not meet the prerequisites. At 6th level, he may select this talent again and add the 6th-level ranger combat feats from his chosen style to the style’s feat list. At 10th level, he may select this talent again and add the 10th-level ranger combat feats from his chosen style to the style’s feat list.</text>
+                <text>      Rogue Talent: A slayer can select one of the following rogue talents in place of a slayer talent: bleeding attack*, camouf lageAPG, combat trick, fast stealth, finesse rogue, firearm trainingUC, gritUC, hard to foolAPG, lasting poisonAPG, powerful sneakAPG, rogue crawl, slow reactions*, snap shotAPG, sniper’s eyeAPG, surprise attack, swift poisonAPG, terrain masteryUC, trap spotter, unwitting allyUC, or weapon training. Any talent effects based on rogue level use the slayer’s class level. If the rogue talent has a prerequisite, the slayer must meet the prerequisite before taking that rogue talent. This talent can be selected multiple times; each time, it grants the slayer a new rogue talent.</text>
+                <text>      Slowing Strike* (Ex): An opponent damaged by the slayer’s sneak attack has its speeds halved for 1d4 rounds. A successful Fortitude saving throw negates this effect (DC = 10 + 1/2 the slayer’s level + the slayer’s Intelligence modifier). Against creatures with multiple types of movement, the slayer must choose which movement type to affect. If the slayer affects a creature’s f light movement, its maneuverability is reduced by one step; if it’s airborne at the time, it falls unless it succeeds at a DC 10 Fly check. If the slayer targets a creature already affected by this ability, its speed and maneuverability are not further reduced; the slayer may either extend the duration of that effect by 1d4 rounds or choose another movement type to affect (keeping track of the duration of each affected movement separately).</text>
+                <text>      Trapfinding: The slayer gains Disable Device as a class skill. The slayer also gains the trapfinding and trap sense rogue abilities, using his slayer level as his effective rogue level.</text>
+            </feature>
+            <feature>
+                <name>Sneak Attack</name>
+                <text>At 3rd level, if a slayer catches an opponent unable to defend itself effectively from his attack, he can strike a vital spot for extra damage. The slayer’s attack deals extra damage anytime his target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when the slayer f lanks his target. This additional damage is 1d6 at 3rd level, and increases by 1d6 every 3 levels thereafter. Should the slayer score a critical hit with a sneak attack, this additional damage is not multiplied. Ranged attacks can count as sneak attacks only if the target is within 30 feet.</text>
+                <text>      With a weapon that deals nonlethal damage (such as a sap, a whip, or an unarmed strike), a slayer can make a sneak attack that deals nonlethal damage instead of lethal damage. He cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual –4 penalty.</text>
+                <text>      The slayer must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. A slayer cannot use sneak attack while striking a creature that has concealment.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "2">
+            <bab>2</bab>
+            <fort>3</fort>
+            <ref>3</ref>
+            <will>0</will>
+        </autolevel>
+        <autolevel level = "3">
+            <bab>3</bab>
+            <fort>3</fort>
+            <ref>3</ref>
+            <will>1</will>
+        </autolevel>
+        <autolevel level = "4">
+            <bab>4</bab>
+            <fort>4</fort>
+            <ref>4</ref>
+            <will>1</will>
+        </autolevel>
+        <autolevel level = "5">
+            <bab>5</bab>
+            <fort>4</fort>
+            <ref>4</ref>
+            <will>1</will>
+        </autolevel>
+        <autolevel level = "6">
+            <bab>6,1</bab>
+            <fort>5</fort>
+            <ref>5</ref>
+            <will>2</will>
+        </autolevel>
+        <autolevel level = "7">
+            <bab>7,2</bab>
+            <fort>5</fort>
+            <ref>5</ref>
+            <will>2</will>
+            <feature>
+                <name>Stalker (Ex)</name>
+                <text>At 7th level, a slayer gains his studied target bonus on Disguise, Intimidate, and Stealth checks against his studied opponent.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "8">
+            <bab>8,3</bab>
+            <fort>6</fort>
+            <ref>6</ref>
+            <will>2</will>
+        </autolevel>
+        <autolevel level = "9">
+            <bab>9,4</bab>
+            <fort>6</fort>
+            <ref>6</ref>
+            <will>3</will>
+        </autolevel>
+        <autolevel level = "10">
+            <bab>10,5</bab>
+            <fort>7</fort>
+            <ref>7</ref>
+            <will>3</will>
+            <feature>
+                <name>Advanced Talents</name>
+                <text>At 10th level and every 2 levels thereafter, a slayer can select one of the following advanced talents in place of a slayer talent.</text>
+                <text>      Assassinate (Ex): A slayer with this advanced talent can kill foes that are unable to defend themselves. To attempt to assassinate a target, the slayer must first study his target for 1 round as a standard action. On the following round, if the slayer makes a sneak attack against the target and that target is denied its Dexterity bonus to AC, the sneak attack has the additional effect of possibly killing the target. This attempt automatically fails if the target recognizes the slayer as an enemy. If the sneak attack is successful, the target must attempt a Fortitude saving throw with a DC equal to 10 + 1/2 the slayer’s level + the slayer’s Intelligence modifier. If the target fails this save, it dies; otherwise, the target takes the sneak attack damage as normal and is then immune to that slayer’s assassinate ability for 24 hours.</text>
+                <text>      Rogue Advanced Talents and Ninja Master Tricks: A slayer can select one of the following rogue advanced talents or ninja master tricks in place of a slayer advanced talent: deadly sneakAPG, evasionUC, feat, hunter’s surpriseAPG, knock-out blowAPG, master of disguiseAPG, opportunist, or stealthy sniperAPG. A slayer can select multiple rogue advanced talents or ninja master tricks by taking this slayer advanced talent multiple times, but can’t select the same one more than once.</text>
+                <text>      Slayer Camouflage (Ex): A slayer can use the Stealth skill to hide in any of his favored terrains, even if the terrain doesn’t grant cover or concealment. A slayer must have the terrain masteryUC talent to select this talent.</text>
+                <text>      Woodland Stride (Ex): A slayer with this talent may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage or suffering any other impairment. Terrain that is enchanted or magically manipulated to impede motion still affects the slayer as normal.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "11">
+            <bab>11,6,1</bab>
+            <fort>7</fort>
+            <ref>7</ref>
+            <will>3</will>
+            <feature>
+                <name>Swift Tracker (Ex)</name>
+                <text>At 11th level, a slayer can move at his normal speed while using Survival to follow tracks without taking the normal –5 penalty. When moving at up to twice his normal speed while tracking, he takes only a –10 penalty instead of the normal –20.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "12">
+            <bab>12,7,2</bab>
+            <fort>8</fort>
+            <ref>8</ref>
+            <will>4</will>
+        </autolevel>
+        <autolevel level = "13">
+            <bab>13,8,3</bab>
+            <fort>8</fort>
+            <ref>8</ref>
+            <will>4</will>
+            <feature>
+                <name>Slayer's Advance (Ex)</name>
+                <text>At 13th level, a slayer can move up to twice his base speed once per day as a move action. He can use Stealth as part of this movement, but takes a –10 penalty on his check for doing so. At 17th level, he can use this ability twice per day.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "14">
+            <bab>14,9,4</bab>
+            <fort>9</fort>
+            <ref>9</ref>
+            <will>4</will>
+            <feature>
+                <name>Quarry (Ex)</name>
+                <text>At 14th level, a slayer can as a standard action denote one target within his line of sight as his quarry. Whenever he is following the tracks of his quarry, a slayer can take 10 on his Survival checks while moving at normal speed, without penalty. In addition, he gains a +2 insight bonus on attack rolls made against his quarry, and all critical threats against his quarry are automatically confirmed. A slayer can have no more than one quarry at a time, and the creature must be one of the slayer’s studied targets. He can dismiss this effect at any time as a free action, but he cannot select a new quarry for 24 hours. If the slayer sees proof that his quarry is dead, he can select a new quarry after 1 hour.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "15">
+            <bab>15,10,5</bab>
+            <fort>9</fort>
+            <ref>9</ref>
+            <will>5</will>
+        </autolevel>
+        <autolevel level = "16">
+            <bab>16,11,6,1</bab>
+            <fort>10</fort>
+            <ref>10</ref>
+            <will>5</will>
+        </autolevel>
+        <autolevel level = "17">
+            <bab>7,12,7,2</bab>
+            <fort>10</fort>
+            <ref>10</ref>
+            <will>5</will>
+        </autolevel>
+        <autolevel level = "18">
+            <bab>18,13,8,3</bab>
+            <fort>11</fort>
+            <ref>11</ref>
+            <will>6</will>
+        </autolevel>
+        <autolevel level = "19">
+            <bab>19,14,9,4</bab>
+            <fort>11</fort>
+            <ref>11</ref>
+            <will>6</will>
+            <feature>
+                <name>Improved Quarry (Ex)</name>
+                <text>At 19th level, the slayer’s ability to hunt his quarry improves. He can now select a quarry as a free action, and can now take 20 when using Survival to track his quarry while moving at normal speed without penalty. His insight bonus to attack his quarry increases to +4. If his quarry is killed or dismissed, he can select a new one after 10 minutes have passed.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "20">
+            <bab>20,15,10,5</bab>
+            <fort>12</fort>
+            <ref>12</ref>
+            <will>6</will>
+            <feature>
+                <name>Master Slayer (Ex)</name>
+                <text>At 20th level, the slayer becomes a master at capturing or killing his studied targets. As a standard action, he can make a single attack against a studied target at his full attack bonus, choosing one of the following effects: kill, knock unconscious for 1d4 hours, or paralyze for 2d6 rounds. If the attack succeeds, the target takes damage normally and must succeed at a Fortitude saving throw or suffer the additional effect. The DC of this save is 10 + 1/2 the slayer’s level + the slayer’s Intelligence modifier. Whether or not the target succeeds, it cannot be targeted by this ability again (by any slayer) for 24 hours.</text>
+            </feature>
+        </autolevel>
+    </class>
+</compendium>
