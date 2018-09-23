@@ -2,7 +2,7 @@
     <class>
         <name>Warpriest</name>
         <hd>8</hd>
-        <skills>Climb (Str), Craft (Int), Diplomacy (Cha), Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (engineering) (Int), Knowledge (religion) (Int), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spellcraft (Int), Survival (Wis), and Swim (Str)</skills>
+        <skills>Climb, Craft, Diplomacy, Handle Animal, Heal, Intimidate, Knowledge (engineering), Knowledge (religion), Profession, Ride, Sense Motive, Spellcraft, Survival, Swim</skills>
         <skillPoints>2</skillPoints>
         <wealth>5d6*10</wealth>
         <spellAbility>Wisdom</spellAbility>

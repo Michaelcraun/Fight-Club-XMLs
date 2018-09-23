@@ -3,7 +3,7 @@
     <class>
         <name>Bloodrager (Draconic Bloodline)</name>
         <hd>10</hd>
-        <skills>Acrobatics (Dex), Climb (Str), Craft (Int), Handle Animal (Cha), Intimidate (Cha), Knowledge (arcana) (Int), Perception (Wis), Ride (Dex), Spellcraft (Int), Survival (Wis), Swim (Str)</skills>
+        <skills>Acrobatics, Climb, Craft, Handle Animal, Intimidate, Knowledge (arcana), Perception, Ride, Spellcraft, Survival, Swim</skills>
         <skillPoints>4</skillPoints>
         <wealth>3d6*10</wealth>
         <spellAbility></spellAbility>

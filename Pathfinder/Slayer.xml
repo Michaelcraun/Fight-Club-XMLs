@@ -2,7 +2,7 @@
     <class>
         <name>Slayer</name>
         <hd>10</hd>
-        <skills>Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Disguise (Cha), Heal (Wis), Intimidate (Cha), Knowledge (dungeoneering) (Int), Knowledge (geography) (Int), Knowledge (local) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Stealth (Dex), Survival (Wis), Swim (Str)</skills>
+        <skills>Acrobatics, Bluff, Climb, Craft, Disguise, Heal, Intimidate, Knowledge (dungeoneering), Knowledge (geography), Knowledge (local), Perception, Profession, Ride, Sense Motive, Stealth, Survival, Swim</skills>
         <skillPoints>6</skillPoints>
         <wealth>5d6*10</wealth>
         <spellAbility></spellAbility>
