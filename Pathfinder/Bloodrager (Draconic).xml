@@ -21,7 +21,7 @@
             <feature>
                 <name>Bloodline</name>
                 <text>Each bloodrager has a source of magic somewhere in his heritage that empowers his bloodrages, bonus feats, and bonus spells. Sometimes this source ref lects a distant blood relationship to a powerful being, or is due to an extreme event involving such a creature somewhere in his family’s past. Regardless of the source, this inf luence manifests in a number of ways. A bloodrager must pick one bloodline upon taking his first level of bloodrager. Once made, this choice cannot be changed.</text>
-                <texr>      When choosing a bloodline, the bloodrager’s alignment doesn’t restrict his choices. A good bloodrager could come from an abyssal bloodline, a celestial bloodline could beget an evil bloodrager generations later, a bloodrager from an infernal bloodline could be chaotic, and so on. Though his bloodline empowers him, it doesn’t dictate or limit his thoughts and behavior.</text>
+                <text>      When choosing a bloodline, the bloodrager’s alignment doesn’t restrict his choices. A good bloodrager could come from an abyssal bloodline, a celestial bloodline could beget an evil bloodrager generations later, a bloodrager from an infernal bloodline could be chaotic, and so on. Though his bloodline empowers him, it doesn’t dictate or limit his thoughts and behavior.</text>
                 <text>      The bloodrager gains bloodline powers at 1st level, 4th level, and every 4 levels thereafter. The bloodline powers a bloodrager gains are described in his chosen bloodline. For all spell-like bloodline powers, treat the character’s bloodrager level as the caster level.</text>
                 <text>      At 6th level and every 3 levels thereafter, a bloodrager receives one bonus feat chosen from a list specific to each bloodline. The bloodrager must meet the prerequisites for these bonus feats.</text>
                 <text>      At 7th, 10th, 13th, and 16th levels, a bloodrager learns an additional spell derived from his bloodline. These spells are in addition to the number of spells given on Table 1–4. These spells cannot be exchanged for different spells at higher levels.</text>
@@ -78,7 +78,7 @@
             <feature>
                 <name>Uncanny Dodge (Ex)</name>
                 <text>At 2nd level, a bloodrager can react to danger before his senses would normally allow him to do so. He cannot be caught f lat-footed, nor does he lose his Dexterity bonus to AC if the attacker is invisible. He still loses his Dexterity bonus to AC if immobilized. A bloodrager with this ability can still lose his Dexterity bonus to AC if an opponent successfully uses the feint action against him.</text>
-                <tex>If a bloodrager already possesses uncanny dodge from a different class, he automatically gains improved uncanny dodge (see below) instead.</text>
+                <text>If a bloodrager already possesses uncanny dodge from a different class, he automatically gains improved uncanny dodge (see below) instead.</text>
             </feature>
         </autolevel>
         <autolevel level = "3">
