@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><compendium version="PF">
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="PF">
     <class>
         <name>Slayer</name>
         <hd>10</hd>
@@ -26,6 +27,13 @@
                 <name>Track (Ex)</name>
                 <text>A slayer adds 1/2 his level (minimum 1) to Survival checks made to follow tracks.</text>
             </feature>
+            </feature>
+        </autolevel>
+        <autolevel level = "2">
+            <bab>2</bab>
+            <fort>3</fort>
+            <ref>3</ref>
+            <will>0</will>
             <feature>
                 <name>Slayer Talents</name>
                 <text>As a slayer gains experience, he learns a number of talents that aid him and confound his foes. Starting at 2nd level and every 2 levels thereafter, a slayer gains one slayer talent. Unless otherwise noted, a slayer cannot select an individual talent more than once.</text>
@@ -38,24 +46,17 @@
                 <text>      Slowing Strike* (Ex): An opponent damaged by the slayer’s sneak attack has its speeds halved for 1d4 rounds. A successful Fortitude saving throw negates this effect (DC = 10 + 1/2 the slayer’s level + the slayer’s Intelligence modifier). Against creatures with multiple types of movement, the slayer must choose which movement type to affect. If the slayer affects a creature’s f light movement, its maneuverability is reduced by one step; if it’s airborne at the time, it falls unless it succeeds at a DC 10 Fly check. If the slayer targets a creature already affected by this ability, its speed and maneuverability are not further reduced; the slayer may either extend the duration of that effect by 1d4 rounds or choose another movement type to affect (keeping track of the duration of each affected movement separately).</text>
                 <text>      Trapfinding: The slayer gains Disable Device as a class skill. The slayer also gains the trapfinding and trap sense rogue abilities, using his slayer level as his effective rogue level.</text>
             </feature>
-            <feature>
-                <name>Sneak Attack</name>
-                <text>At 3rd level, if a slayer catches an opponent unable to defend itself effectively from his attack, he can strike a vital spot for extra damage. The slayer’s attack deals extra damage anytime his target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when the slayer f lanks his target. This additional damage is 1d6 at 3rd level, and increases by 1d6 every 3 levels thereafter. Should the slayer score a critical hit with a sneak attack, this additional damage is not multiplied. Ranged attacks can count as sneak attacks only if the target is within 30 feet.</text>
-                <text>      With a weapon that deals nonlethal damage (such as a sap, a whip, or an unarmed strike), a slayer can make a sneak attack that deals nonlethal damage instead of lethal damage. He cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual –4 penalty.</text>
-                <text>      The slayer must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. A slayer cannot use sneak attack while striking a creature that has concealment.</text>
-            </feature>
-        </autolevel>
-        <autolevel level = "2">
-            <bab>2</bab>
-            <fort>3</fort>
-            <ref>3</ref>
-            <will>0</will>
         </autolevel>
         <autolevel level = "3">
             <bab>3</bab>
             <fort>3</fort>
             <ref>3</ref>
             <will>1</will>
+            <feature>
+                <name>Sneak Attack</name>
+                <text>At 3rd level, if a slayer catches an opponent unable to defend itself effectively from his attack, he can strike a vital spot for extra damage. The slayer’s attack deals extra damage anytime his target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when the slayer f lanks his target. This additional damage is 1d6 at 3rd level, and increases by 1d6 every 3 levels thereafter. Should the slayer score a critical hit with a sneak attack, this additional damage is not multiplied. Ranged attacks can count as sneak attacks only if the target is within 30 feet.</text>
+                <text>      With a weapon that deals nonlethal damage (such as a sap, a whip, or an unarmed strike), a slayer can make a sneak attack that deals nonlethal damage instead of lethal damage. He cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual –4 penalty.</text>
+                <text>      The slayer must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. A slayer cannot use sneak attack while striking a creature that has concealment.</text>
         </autolevel>
         <autolevel level = "4">
             <bab>4</bab>
