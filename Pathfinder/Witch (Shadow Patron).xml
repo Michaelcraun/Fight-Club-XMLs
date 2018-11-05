@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="PF">
+    <class>
+        <name>Witch (Shadow Patron)</name>
+        <hd>6</hd>
+        <skills>Craft, Fly, Heal, Intimidate, Knowledge (arcana), Knowledge (history), Knowledge (nature), Knowledge (planes), Profession, Spellcraft, Use Magic Device</skills>
+        <skillPoints>2</skillPoints>
+        <wealth>3d6*10</wealth>
+        <spellAbility>Wisdom</spellAbility>
+        <autolevel level = "1">
+            <bab>0</bab>
+            <fort>0</fort>
+            <ref>0</ref>
+            <will>2</will>
+            <slots>3</slots>
+            <feature>
+                <name>Weapon and Armor Proficiencies</name>
+                <text>Witches are proficient with all simple weapons. They are not proficient with any type of armor or shield. Armor interferes with a witch’s gestures, which can cause her spells with somatic components to fail (see Arcane Spells and Armor on page 83 of the Pathfinder RPG Core Rulebook).</text>
+            </feature>
+            <feature>
+                <name>Spells</name>
+                <text>A witch casts arcane spells drawn from the witch spell list (see pages 70–71). A witch must choose and prepare her spells ahead of time.</text>
+                <text>  To learn or cast a spell, a witch must have an Intelligence score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a witch’s spell is 10 + the spell level + the witch’s Intelligence modifier.</text>
+                <text>  A witch can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table 2–10. In addition, she receives bonus spells per day if she has a high Intelligence score (see Table 1–3 of the Pathfinder RPG Core Rulebook).</text>
+                <text>  A witch may know any number of spells. She must choose and prepare her spells ahead of time by getting 8 hours of sleep and spending 1 hour communing with her familiar. While communing, the witch decides which spells to prepare.</text>
+            </feature>
+            <feature>
+                <name>Cantrips</name>
+                <text>Witches can prepare a number of cantrips, or 0-level spells, each day, as noted on Table 2–10 under “Spells per Day.” These spells are cast like any other spell, but they are not expended when cast and may be used again. Cantrips prepared using other spell slots, due to metamagic feats for example, are expended normally.</text>
+            </feature>
+            <feature>
+                <name>Hex</name>
+                <text>Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes. At 1st level, a witch gains one hex of her choice. She gains an additional hex at 2nd level and for every 2 levels attained after 2nd level, as noted on Table 2–10. A witch cannot select an individual hex more than once.</text>
+                <text>  Unless otherwise noted, using a hex is a standard action that does not provoke an attack of opportunity. The save to resist a hex is equal to 10 + 1/2 the witch’s level + the witch’s Intelligence modifier.</text>
+            </feature>
+            <feature>
+                <name>Blight (Su)</name>
+                <text>The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it’s used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—type curse; save Will negates; frequency 1/day; effect 1 Con damage. Both types of curse can be removed with a remove curse or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</text>
+            </feature>
+            <feature>
+                <name>Cackle (Su)</name>
+                <text>A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an agony hex, charm hex, evil eye hex, fortune hex, or misfortune hex caused by the witch has the duration of that hex extended by 1 round.</text>
+            </feature>
+            <feature>
+                <name>Cauldron (Su)</name>
+                <text>The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.</text>
+            </feature>
+            <feature>
+                <name>Charm (Su)</name>
+                <text>A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the witch had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the Witch’s Intelligence modifier. A Will save negates this effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. At 8th level, this effect improves the attitude of the target creature by 2 steps. This is a mind-affecting charm effect.</text>
+            </feature>
+            <feature>
+                <name>Coven (Ex)</name>
+                <text>The witch counts as a hag for the purpose of joining a hag’s coven. The coven must contain at least one hag. In addition, whenever the witch with this hex is within 30 feet of another witch with this hex, she can use the aid another action to grant a +1 bonus to the other witch’s caster level for 1 round. This bonus applies to the witch’s spells and all of her hexes.</text>
+            </feature>
+            <feature>
+                <name>Disguise (Su)</name>
+                <text>A witch can change her appearance for a number of hours equal to her class level, as if using disguise self. These hours do not need to be consecutive, but they must be spent in 1-hour increments.</text>
+            </feature>
+            <feature>
+                <name>Evil Eye (Su)</name>
+                <text>The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty on one of the following (witch’s choice): AC, ability checks, attack rolls, saving throws, or skill checks. This hex lasts for a number of rounds equal to 3 + the witch’s Intelligence modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.</text>
+            </feature>
+            <feature>
+                <name>Flight (Su)</name>
+                <text>The witch grows lighter as she gains power, eventually gaining the ability to f ly. At 1st level, the witch can use feather fall at will and gains a +4 racial bonus on Swim checks. At 3rd level, she can cast levitate once per day. At 5th level, she can f ly, as per the spell, for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. This hex only affects the witch.</text>
+            </feature>
+            <feature>
+                <name>Fortune (Su)</name>
+                <text>The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use 3 this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</text>
+            </feature>
+            <feature>
+                <name>Healing (Su)</name>
+                <text>A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch’s caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this hex acts like cure moderate wounds.</text>
+            </feature>
+            <feature>
+                <name>Misfortune (Su)</name>
+                <text>The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Slumber (Su)</name>
+                <text>A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch’s level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action. This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Tongues (Su)</name>
+                <text>A witch with this hex can understand any spoken language for a number of minutes per day equal to her level, as comprehend languages. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a witch can use this ability to speak any language, as per tongues.</text>
+            </feature>
+            <feature>
+                <name>Ward (Su)</name>
+                <text>A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1.</text>
+            </feature>
+            <feature>
+                <name>Witch's Familiar (Ex)</name>
+                <text>At 1st level, a witch forms a close bond with a familiar, a creature that teaches her magic and helps to guide her along her path. Familiars also aid a witch by granting her skill bonuses, additional spells, and help with some types of magic. This functions like the wizard’s arcane bond class feature, except as noted in the Witch’s Familiar section.</text>
+                <text>  A witch must commune with her familiar each day to prepare her spells. Familiars store all of the spells that a witch knows, and a witch cannot prepare a spell that is not stored by her familiar. A witch’s familiar begins play storing all of the 0-level witch spells plus three 1st- level spells of the witch’s choice. The witch also selects a number of additional 1st-level spells equal to her Intelligence modifier to store in her familiar. At each new witch level, she adds two new spells of any spell level or levels that she can cast (based on her new witch level) to her familiar. A witch can also add additional spells to her familiar through a special ritual (see sidebar).</text>
+                <text>Fast Healing (major): At 10th level, you can touch an ally and grant it fast healing 3 for 1 minute.</text>
+            </feature>
+            <feature>
+                <name>Shadow Patron</name>
+                <text>At 1st level, when a witch gains her familiar, she must also select a patron. This patron is a vague and mysterious force, granting the witch power for reasons that she might not entirely understand. While these forces need not be named, they typically hold inf luence over one of the following forces. At 2nd level, and every two levels thereafter, a witch’s patron adds new spells to a witch’s list of spells known. These spells are also automatically added to the list of spells stored by the familiar. Spells marked with an asterisk (*) appear in Chapter 5 of this book. The spells gained depend upon the patron chosen. Each patron is listed by its theme. Its actual name is up to the GM and the witch to decide.</text>
+                <text>  Spells: 2nd—silent image, 4th—darkness, 6th—deeper darkness, 8th—shadow conjuration, 10th—shadow evocation, 12th—shadow walk, 14th—shadow conjuration (greater), 16th—shadow evocation (greater), 18th—shades.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "2">
+            <bab>1</bab>
+            <fort>0</fort>
+            <ref>0</ref>
+            <will>3</will>
+            <slots>4,2</slots>
+            <feature>
+                <name>Blight (Su)</name>
+                <text>The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it’s used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—type curse; save Will negates; frequency 1/day; effect 1 Con damage. Both types of curse can be removed with a remove curse or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</text>
+            </feature>
+            <feature>
+                <name>Cackle (Su)</name>
+                <text>A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an agony hex, charm hex, evil eye hex, fortune hex, or misfortune hex caused by the witch has the duration of that hex extended by 1 round.</text>
+            </feature>
+            <feature>
+                <name>Cauldron (Su)</name>
+                <text>The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.</text>
+            </feature>
+            <feature>
+                <name>Charm (Su)</name>
+                <text>A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the witch had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the Witch’s Intelligence modifier. A Will save negates this effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. At 8th level, this effect improves the attitude of the target creature by 2 steps. This is a mind-affecting charm effect.</text>
+            </feature>
+            <feature>
+                <name>Coven (Ex)</name>
+                <text>The witch counts as a hag for the purpose of joining a hag’s coven. The coven must contain at least one hag. In addition, whenever the witch with this hex is within 30 feet of another witch with this hex, she can use the aid another action to grant a +1 bonus to the other witch’s caster level for 1 round. This bonus applies to the witch’s spells and all of her hexes.</text>
+            </feature>
+            <feature>
+                <name>Disguise (Su)</name>
+                <text>A witch can change her appearance for a number of hours equal to her class level, as if using disguise self. These hours do not need to be consecutive, but they must be spent in 1-hour increments.</text>
+            </feature>
+            <feature>
+                <name>Evil Eye (Su)</name>
+                <text>The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty on one of the following (witch’s choice): AC, ability checks, attack rolls, saving throws, or skill checks. This hex lasts for a number of rounds equal to 3 + the witch’s Intelligence modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.</text>
+            </feature>
+            <feature>
+                <name>Flight (Su)</name>
+                <text>The witch grows lighter as she gains power, eventually gaining the ability to f ly. At 1st level, the witch can use feather fall at will and gains a +4 racial bonus on Swim checks. At 3rd level, she can cast levitate once per day. At 5th level, she can f ly, as per the spell, for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. This hex only affects the witch.</text>
+            </feature>
+            <feature>
+                <name>Fortune (Su)</name>
+                <text>The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use 3 this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</text>
+            </feature>
+            <feature>
+                <name>Healing (Su)</name>
+                <text>A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch’s caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this hex acts like cure moderate wounds.</text>
+            </feature>
+            <feature>
+                <name>Misfortune (Su)</name>
+                <text>The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Slumber (Su)</name>
+                <text>A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch’s level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action. This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Tongues (Su)</name>
+                <text>A witch with this hex can understand any spoken language for a number of minutes per day equal to her level, as comprehend languages. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a witch can use this ability to speak any language, as per tongues.</text>
+            </feature>
+            <feature>
+                <name>Ward (Su)</name>
+                <text>A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "3">
+            <bab>1</bab>
+            <fort>1</fort>
+            <ref>1</ref>
+            <will>3</will>
+            <slots>4,2,1</slots>
+        </autolevel>
+        <autolevel level = "4">
+            <bab>2</bab>
+            <fort>1</fort>
+            <ref>1</ref>
+            <will>4</will>
+            <slots>4,3,2</slots>
+            <feature>
+                <name>Blight (Su)</name>
+                <text>The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it’s used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—type curse; save Will negates; frequency 1/day; effect 1 Con damage. Both types of curse can be removed with a remove curse or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</text>
+            </feature>
+            <feature>
+                <name>Cackle (Su)</name>
+                <text>A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an agony hex, charm hex, evil eye hex, fortune hex, or misfortune hex caused by the witch has the duration of that hex extended by 1 round.</text>
+            </feature>
+            <feature>
+                <name>Cauldron (Su)</name>
+                <text>The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.</text>
+            </feature>
+            <feature>
+                <name>Charm (Su)</name>
+                <text>A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the witch had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the Witch’s Intelligence modifier. A Will save negates this effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. At 8th level, this effect improves the attitude of the target creature by 2 steps. This is a mind-affecting charm effect.</text>
+            </feature>
+            <feature>
+                <name>Coven (Ex)</name>
+                <text>The witch counts as a hag for the purpose of joining a hag’s coven. The coven must contain at least one hag. In addition, whenever the witch with this hex is within 30 feet of another witch with this hex, she can use the aid another action to grant a +1 bonus to the other witch’s caster level for 1 round. This bonus applies to the witch’s spells and all of her hexes.</text>
+            </feature>
+            <feature>
+                <name>Disguise (Su)</name>
+                <text>A witch can change her appearance for a number of hours equal to her class level, as if using disguise self. These hours do not need to be consecutive, but they must be spent in 1-hour increments.</text>
+            </feature>
+            <feature>
+                <name>Evil Eye (Su)</name>
+                <text>The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty on one of the following (witch’s choice): AC, ability checks, attack rolls, saving throws, or skill checks. This hex lasts for a number of rounds equal to 3 + the witch’s Intelligence modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.</text>
+            </feature>
+            <feature>
+                <name>Flight (Su)</name>
+                <text>The witch grows lighter as she gains power, eventually gaining the ability to f ly. At 1st level, the witch can use feather fall at will and gains a +4 racial bonus on Swim checks. At 3rd level, she can cast levitate once per day. At 5th level, she can f ly, as per the spell, for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. This hex only affects the witch.</text>
+            </feature>
+            <feature>
+                <name>Fortune (Su)</name>
+                <text>The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use 3 this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</text>
+            </feature>
+            <feature>
+                <name>Healing (Su)</name>
+                <text>A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch’s caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this hex acts like cure moderate wounds.</text>
+            </feature>
+            <feature>
+                <name>Misfortune (Su)</name>
+                <text>The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Slumber (Su)</name>
+                <text>A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch’s level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action. This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Tongues (Su)</name>
+                <text>A witch with this hex can understand any spoken language for a number of minutes per day equal to her level, as comprehend languages. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a witch can use this ability to speak any language, as per tongues.</text>
+            </feature>
+            <feature>
+                <name>Ward (Su)</name>
+                <text>A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "5">
+            <bab>2</bab>
+            <fort>1</fort>
+            <ref>1</ref>
+            <will>4</will>
+            <slots>4,3,2,1</slots>
+        </autolevel>
+        <autolevel level = "6">
+            <bab>3</bab>
+            <fort>2</fort>
+            <ref>2</ref>
+            <will>5</will>
+            <slots>4,3,3,2</slots>
+            <feature>
+                <name>Blight (Su)</name>
+                <text>The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it’s used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—type curse; save Will negates; frequency 1/day; effect 1 Con damage. Both types of curse can be removed with a remove curse or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</text>
+            </feature>
+            <feature>
+                <name>Cackle (Su)</name>
+                <text>A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an agony hex, charm hex, evil eye hex, fortune hex, or misfortune hex caused by the witch has the duration of that hex extended by 1 round.</text>
+            </feature>
+            <feature>
+                <name>Cauldron (Su)</name>
+                <text>The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.</text>
+            </feature>
+            <feature>
+                <name>Charm (Su)</name>
+                <text>A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the witch had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the Witch’s Intelligence modifier. A Will save negates this effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. At 8th level, this effect improves the attitude of the target creature by 2 steps. This is a mind-affecting charm effect.</text>
+            </feature>
+            <feature>
+                <name>Coven (Ex)</name>
+                <text>The witch counts as a hag for the purpose of joining a hag’s coven. The coven must contain at least one hag. In addition, whenever the witch with this hex is within 30 feet of another witch with this hex, she can use the aid another action to grant a +1 bonus to the other witch’s caster level for 1 round. This bonus applies to the witch’s spells and all of her hexes.</text>
+            </feature>
+            <feature>
+                <name>Disguise (Su)</name>
+                <text>A witch can change her appearance for a number of hours equal to her class level, as if using disguise self. These hours do not need to be consecutive, but they must be spent in 1-hour increments.</text>
+            </feature>
+            <feature>
+                <name>Evil Eye (Su)</name>
+                <text>The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty on one of the following (witch’s choice): AC, ability checks, attack rolls, saving throws, or skill checks. This hex lasts for a number of rounds equal to 3 + the witch’s Intelligence modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.</text>
+            </feature>
+            <feature>
+                <name>Flight (Su)</name>
+                <text>The witch grows lighter as she gains power, eventually gaining the ability to f ly. At 1st level, the witch can use feather fall at will and gains a +4 racial bonus on Swim checks. At 3rd level, she can cast levitate once per day. At 5th level, she can f ly, as per the spell, for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. This hex only affects the witch.</text>
+            </feature>
+            <feature>
+                <name>Fortune (Su)</name>
+                <text>The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use 3 this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</text>
+            </feature>
+            <feature>
+                <name>Healing (Su)</name>
+                <text>A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch’s caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this hex acts like cure moderate wounds.</text>
+            </feature>
+            <feature>
+                <name>Misfortune (Su)</name>
+                <text>The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Slumber (Su)</name>
+                <text>A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch’s level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action. This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Tongues (Su)</name>
+                <text>A witch with this hex can understand any spoken language for a number of minutes per day equal to her level, as comprehend languages. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a witch can use this ability to speak any language, as per tongues.</text>
+            </feature>
+            <feature>
+                <name>Ward (Su)</name>
+                <text>A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "7">
+            <bab>3</bab>
+            <fort>2</fort>
+            <ref>2</ref>
+            <will>5</will>
+            <slots>4,4,3,2,1</slots>
+        </autolevel>
+        <autolevel level = "8">
+            <bab>4</bab>
+            <fort>2</fort>
+            <ref>2</ref>
+            <will>6</will>
+            <slots>4,4,3,3,2</slots>
+            <feature>
+                <name>Blight (Su)</name>
+                <text>The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it’s used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—type curse; save Will negates; frequency 1/day; effect 1 Con damage. Both types of curse can be removed with a remove curse or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</text>
+            </feature>
+            <feature>
+                <name>Cackle (Su)</name>
+                <text>A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an agony hex, charm hex, evil eye hex, fortune hex, or misfortune hex caused by the witch has the duration of that hex extended by 1 round.</text>
+            </feature>
+            <feature>
+                <name>Cauldron (Su)</name>
+                <text>The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.</text>
+            </feature>
+            <feature>
+                <name>Charm (Su)</name>
+                <text>A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the witch had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the Witch’s Intelligence modifier. A Will save negates this effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. At 8th level, this effect improves the attitude of the target creature by 2 steps. This is a mind-affecting charm effect.</text>
+            </feature>
+            <feature>
+                <name>Coven (Ex)</name>
+                <text>The witch counts as a hag for the purpose of joining a hag’s coven. The coven must contain at least one hag. In addition, whenever the witch with this hex is within 30 feet of another witch with this hex, she can use the aid another action to grant a +1 bonus to the other witch’s caster level for 1 round. This bonus applies to the witch’s spells and all of her hexes.</text>
+            </feature>
+            <feature>
+                <name>Disguise (Su)</name>
+                <text>A witch can change her appearance for a number of hours equal to her class level, as if using disguise self. These hours do not need to be consecutive, but they must be spent in 1-hour increments.</text>
+            </feature>
+            <feature>
+                <name>Evil Eye (Su)</name>
+                <text>The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty on one of the following (witch’s choice): AC, ability checks, attack rolls, saving throws, or skill checks. This hex lasts for a number of rounds equal to 3 + the witch’s Intelligence modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.</text>
+            </feature>
+            <feature>
+                <name>Flight (Su)</name>
+                <text>The witch grows lighter as she gains power, eventually gaining the ability to f ly. At 1st level, the witch can use feather fall at will and gains a +4 racial bonus on Swim checks. At 3rd level, she can cast levitate once per day. At 5th level, she can f ly, as per the spell, for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. This hex only affects the witch.</text>
+            </feature>
+            <feature>
+                <name>Fortune (Su)</name>
+                <text>The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use 3 this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</text>
+            </feature>
+            <feature>
+                <name>Healing (Su)</name>
+                <text>A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch’s caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this hex acts like cure moderate wounds.</text>
+            </feature>
+            <feature>
+                <name>Misfortune (Su)</name>
+                <text>The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Slumber (Su)</name>
+                <text>A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch’s level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action. This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Tongues (Su)</name>
+                <text>A witch with this hex can understand any spoken language for a number of minutes per day equal to her level, as comprehend languages. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a witch can use this ability to speak any language, as per tongues.</text>
+            </feature>
+            <feature>
+                <name>Ward (Su)</name>
+                <text>A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "9">
+            <bab>4</bab>
+            <fort>3</fort>
+            <ref>3</ref>
+            <will>6</will>
+            <slots>4,4,4,3,2,1</slots>
+        </autolevel>
+        <autolevel level = "10">
+            <bab>5</bab>
+            <fort>3</fort>
+            <ref>3</ref>
+            <will>7</will>
+            <slots>4,4,4,3,3,2</slots>
+            <feature>
+                <name>Major Hex</name>
+                <text>Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new hex.</text>
+            </feature>
+            <feature>
+                <name>Agony (Su)</name>
+                <text>With a quick incantation, a witch can place this hex on one creature within 60 feet, causing them to suffer intense pain. The target is nauseated for a number of rounds equal to the witch’s level. A Fortitude save negates this effect. If the saving throw is failed, the target can attempt a new save each round to end the effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Hag's Eye (Su)</name>
+                <text>A witch with this hex can create a magic sensor that she can see through. This functions as per the spell arcane eye. If the witch has the coven hex, all other witches within 10 feet who also have the coven hex can see through this sensor as well, although the witch that created it still controls it. The witch can use this eye for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments.</text>
+            </feature>
+            <feature>
+                <name>Major Healing (Su)</name>
+                <text>By calling upon eerie powers, the witch’s touch can mend even the most terrible wounds of those she touches. This acts as cure serious wounds, using the witch’s caster level. Once a creature has benefited from the major healing hex, it cannot benefit from it again for 24 hours. At 15th level, this hex acts like cure critical wounds.</text>
+            </feature>
+            <feature>
+                <name>Nightmares (Su)</name>
+                <text>Calling upon fell powers, a witch can place a hex on a creature within 60 feet that causes its sleep to be tormented by terrible nightmares.This functions as the spell nightmare each time the affected creature attempts to rest. A Will save negates this effect. If the save is failed, the target must make a new save each night or be unable to rest.</text>
+            </feature>
+            <feature>
+                <name>Retribution (Su)</name>
+                <text>A witch can place a retribution hex on a creature within 60 feet, causing terrible wounds to open across the target’s flesh whenever it deals damage to another creature in melee. Immediately after the hexed creature deals damage in melee, it takes half that damage (round down). This damage bypasses any resistances, immunities, or damage reduction the creature possesses. This effect lasts for a number of rounds equal to the witch’s Intelligence modifier. A Will save negates this effect.</text>
+            </feature>
+            <feature>
+                <name>Vision (Su)</name>
+                <text>A witch with the vision hex can grant a glimpse of the future to a creature touched. Granting a vision takes 1 minute, during which time the witch and the target must remain in contact with one another. At the end of this time, the subject receives a brief image of the future, usually no more than 1 year from the time of the vision, subject to GM discretion. This is only one possible version of the future, making such visions unreliable at best. Most visions are slanted toward the alignment of the witch that granted them. For example, the visions granted by a chaotic evil witch often show scenes of death and destruction, while those of a neutral good witch tend to be of joyous events or occasions. A creature cannot be subject to another vision until the current vision has either come to pass or been prevented. A witch cannot use this ability on herself. Unwilling creatures receive a Will save to negate the vision.</text>
+            </feature>
+            <feature>
+                <name>Waxen Image (Su)</name>
+                <text>The witch can spend a full-round action to create a crude and unnerving wax duplicate of a creature she can see within 30 feet. Once the image is complete, the subject must make a Will save. If the subject fails, the witch gains a small measure of control over the creature. Whenever she exercises this control, the creature receives a new Will save to end the effect. This effect occurs on the witch’s turn and does not impede the creature’s actions on its turn. The witch can use the waxen image a number of times equal to her Intelligence modifier before it melts. As a standard action, the witch can cause the subject to do any one of the following things: move up to the creature’s speed in any direction, attack itself once with any weapon in hand (this attack automatically hits), lay down on the ground, or drop anything held. Alternatively, she can spend one of her uses to simply torture the image, causing the creature to be both sickened and staggered on its turn. As soon as the creature has succeeded on a saving throw against this effect, it is immune to it for 24 hours. The is an enchantment (compulsion) effect.</text>
+            </feature>
+            <feature>
+                <name>Weather Control (Su)</name>
+                <text>A witch with this hex can use control weather once per day, but creating the weather takes 1 full hour of chanting, dancing, and communing with her familiar.</text>
+            </feature>
+            <feature>
+                <name>Blight (Su)</name>
+                <text>The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it’s used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—type curse; save Will negates; frequency 1/day; effect 1 Con damage. Both types of curse can be removed with a remove curse or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</text>
+            </feature>
+            <feature>
+                <name>Cackle (Su)</name>
+                <text>A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an agony hex, charm hex, evil eye hex, fortune hex, or misfortune hex caused by the witch has the duration of that hex extended by 1 round.</text>
+            </feature>
+            <feature>
+                <name>Cauldron (Su)</name>
+                <text>The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.</text>
+            </feature>
+            <feature>
+                <name>Charm (Su)</name>
+                <text>A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the witch had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the Witch’s Intelligence modifier. A Will save negates this effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. At 8th level, this effect improves the attitude of the target creature by 2 steps. This is a mind-affecting charm effect.</text>
+            </feature>
+            <feature>
+                <name>Coven (Ex)</name>
+                <text>The witch counts as a hag for the purpose of joining a hag’s coven. The coven must contain at least one hag. In addition, whenever the witch with this hex is within 30 feet of another witch with this hex, she can use the aid another action to grant a +1 bonus to the other witch’s caster level for 1 round. This bonus applies to the witch’s spells and all of her hexes.</text>
+            </feature>
+            <feature>
+                <name>Disguise (Su)</name>
+                <text>A witch can change her appearance for a number of hours equal to her class level, as if using disguise self. These hours do not need to be consecutive, but they must be spent in 1-hour increments.</text>
+            </feature>
+            <feature>
+                <name>Evil Eye (Su)</name>
+                <text>The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty on one of the following (witch’s choice): AC, ability checks, attack rolls, saving throws, or skill checks. This hex lasts for a number of rounds equal to 3 + the witch’s Intelligence modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.</text>
+            </feature>
+            <feature>
+                <name>Flight (Su)</name>
+                <text>The witch grows lighter as she gains power, eventually gaining the ability to f ly. At 1st level, the witch can use feather fall at will and gains a +4 racial bonus on Swim checks. At 3rd level, she can cast levitate once per day. At 5th level, she can f ly, as per the spell, for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. This hex only affects the witch.</text>
+            </feature>
+            <feature>
+                <name>Fortune (Su)</name>
+                <text>The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use 3 this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</text>
+            </feature>
+            <feature>
+                <name>Healing (Su)</name>
+                <text>A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch’s caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this hex acts like cure moderate wounds.</text>
+            </feature>
+            <feature>
+                <name>Misfortune (Su)</name>
+                <text>The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Slumber (Su)</name>
+                <text>A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch’s level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action. This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Tongues (Su)</name>
+                <text>A witch with this hex can understand any spoken language for a number of minutes per day equal to her level, as comprehend languages. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a witch can use this ability to speak any language, as per tongues.</text>
+            </feature>
+            <feature>
+                <name>Ward (Su)</name>
+                <text>A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "11">
+            <bab>5</bab>
+            <fort>3</fort>
+            <ref>3</ref>
+            <will>7</will>
+            <slots>4,4,4,4,3,2,1</slots>
+        </autolevel>
+        <autolevel level = "12">
+            <bab>6</bab>
+            <fort>4</fort>
+            <ref>4</ref>
+            <will>8</will>
+            <slots>4,4,4,4,3,3,2</slots>
+            <feature>
+                <name>Major Hex</name>
+                <text>Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new hex.</text>
+            </feature>
+            <feature>
+                <name>Agony (Su)</name>
+                <text>With a quick incantation, a witch can place this hex on one creature within 60 feet, causing them to suffer intense pain. The target is nauseated for a number of rounds equal to the witch’s level. A Fortitude save negates this effect. If the saving throw is failed, the target can attempt a new save each round to end the effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Hag's Eye (Su)</name>
+                <text>A witch with this hex can create a magic sensor that she can see through. This functions as per the spell arcane eye. If the witch has the coven hex, all other witches within 10 feet who also have the coven hex can see through this sensor as well, although the witch that created it still controls it. The witch can use this eye for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments.</text>
+            </feature>
+            <feature>
+                <name>Major Healing (Su)</name>
+                <text>By calling upon eerie powers, the witch’s touch can mend even the most terrible wounds of those she touches. This acts as cure serious wounds, using the witch’s caster level. Once a creature has benefited from the major healing hex, it cannot benefit from it again for 24 hours. At 15th level, this hex acts like cure critical wounds.</text>
+            </feature>
+            <feature>
+                <name>Nightmares (Su)</name>
+                <text>Calling upon fell powers, a witch can place a hex on a creature within 60 feet that causes its sleep to be tormented by terrible nightmares.This functions as the spell nightmare each time the affected creature attempts to rest. A Will save negates this effect. If the save is failed, the target must make a new save each night or be unable to rest.</text>
+            </feature>
+            <feature>
+                <name>Retribution (Su)</name>
+                <text>A witch can place a retribution hex on a creature within 60 feet, causing terrible wounds to open across the target’s flesh whenever it deals damage to another creature in melee. Immediately after the hexed creature deals damage in melee, it takes half that damage (round down). This damage bypasses any resistances, immunities, or damage reduction the creature possesses. This effect lasts for a number of rounds equal to the witch’s Intelligence modifier. A Will save negates this effect.</text>
+            </feature>
+            <feature>
+                <name>Vision (Su)</name>
+                <text>A witch with the vision hex can grant a glimpse of the future to a creature touched. Granting a vision takes 1 minute, during which time the witch and the target must remain in contact with one another. At the end of this time, the subject receives a brief image of the future, usually no more than 1 year from the time of the vision, subject to GM discretion. This is only one possible version of the future, making such visions unreliable at best. Most visions are slanted toward the alignment of the witch that granted them. For example, the visions granted by a chaotic evil witch often show scenes of death and destruction, while those of a neutral good witch tend to be of joyous events or occasions. A creature cannot be subject to another vision until the current vision has either come to pass or been prevented. A witch cannot use this ability on herself. Unwilling creatures receive a Will save to negate the vision.</text>
+            </feature>
+            <feature>
+                <name>Waxen Image (Su)</name>
+                <text>The witch can spend a full-round action to create a crude and unnerving wax duplicate of a creature she can see within 30 feet. Once the image is complete, the subject must make a Will save. If the subject fails, the witch gains a small measure of control over the creature. Whenever she exercises this control, the creature receives a new Will save to end the effect. This effect occurs on the witch’s turn and does not impede the creature’s actions on its turn. The witch can use the waxen image a number of times equal to her Intelligence modifier before it melts. As a standard action, the witch can cause the subject to do any one of the following things: move up to the creature’s speed in any direction, attack itself once with any weapon in hand (this attack automatically hits), lay down on the ground, or drop anything held. Alternatively, she can spend one of her uses to simply torture the image, causing the creature to be both sickened and staggered on its turn. As soon as the creature has succeeded on a saving throw against this effect, it is immune to it for 24 hours. The is an enchantment (compulsion) effect.</text>
+            </feature>
+            <feature>
+                <name>Weather Control (Su)</name>
+                <text>A witch with this hex can use control weather once per day, but creating the weather takes 1 full hour of chanting, dancing, and communing with her familiar.</text>
+            </feature>
+            <feature>
+                <name>Blight (Su)</name>
+                <text>The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it’s used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—type curse; save Will negates; frequency 1/day; effect 1 Con damage. Both types of curse can be removed with a remove curse or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</text>
+            </feature>
+            <feature>
+                <name>Cackle (Su)</name>
+                <text>A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an agony hex, charm hex, evil eye hex, fortune hex, or misfortune hex caused by the witch has the duration of that hex extended by 1 round.</text>
+            </feature>
+            <feature>
+                <name>Cauldron (Su)</name>
+                <text>The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.</text>
+            </feature>
+            <feature>
+                <name>Charm (Su)</name>
+                <text>A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the witch had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the Witch’s Intelligence modifier. A Will save negates this effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. At 8th level, this effect improves the attitude of the target creature by 2 steps. This is a mind-affecting charm effect.</text>
+            </feature>
+            <feature>
+                <name>Coven (Ex)</name>
+                <text>The witch counts as a hag for the purpose of joining a hag’s coven. The coven must contain at least one hag. In addition, whenever the witch with this hex is within 30 feet of another witch with this hex, she can use the aid another action to grant a +1 bonus to the other witch’s caster level for 1 round. This bonus applies to the witch’s spells and all of her hexes.</text>
+            </feature>
+            <feature>
+                <name>Disguise (Su)</name>
+                <text>A witch can change her appearance for a number of hours equal to her class level, as if using disguise self. These hours do not need to be consecutive, but they must be spent in 1-hour increments.</text>
+            </feature>
+            <feature>
+                <name>Evil Eye (Su)</name>
+                <text>The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty on one of the following (witch’s choice): AC, ability checks, attack rolls, saving throws, or skill checks. This hex lasts for a number of rounds equal to 3 + the witch’s Intelligence modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.</text>
+            </feature>
+            <feature>
+                <name>Flight (Su)</name>
+                <text>The witch grows lighter as she gains power, eventually gaining the ability to f ly. At 1st level, the witch can use feather fall at will and gains a +4 racial bonus on Swim checks. At 3rd level, she can cast levitate once per day. At 5th level, she can f ly, as per the spell, for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. This hex only affects the witch.</text>
+            </feature>
+            <feature>
+                <name>Fortune (Su)</name>
+                <text>The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use 3 this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</text>
+            </feature>
+            <feature>
+                <name>Healing (Su)</name>
+                <text>A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch’s caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this hex acts like cure moderate wounds.</text>
+            </feature>
+            <feature>
+                <name>Misfortune (Su)</name>
+                <text>The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Slumber (Su)</name>
+                <text>A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch’s level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action. This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Tongues (Su)</name>
+                <text>A witch with this hex can understand any spoken language for a number of minutes per day equal to her level, as comprehend languages. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a witch can use this ability to speak any language, as per tongues.</text>
+            </feature>
+            <feature>
+                <name>Ward (Su)</name>
+                <text>A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "13">
+            <bab>6</bab>
+            <fort>4</fort>
+            <ref>4</ref>
+            <will>8</will>
+            <slots>4,4,4,4,4,3,2,1</slots>
+        </autolevel>
+        <autolevel level = "14">
+            <bab>7</bab>
+            <fort>4</fort>
+            <ref>4</ref>
+            <will>9</will>
+            <slots>4,4,4,4,4,3,3,2</slots>
+            <feature>
+                <name>Major Hex</name>
+                <text>Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new hex.</text>
+            </feature>
+            <feature>
+                <name>Agony (Su)</name>
+                <text>With a quick incantation, a witch can place this hex on one creature within 60 feet, causing them to suffer intense pain. The target is nauseated for a number of rounds equal to the witch’s level. A Fortitude save negates this effect. If the saving throw is failed, the target can attempt a new save each round to end the effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Hag's Eye (Su)</name>
+                <text>A witch with this hex can create a magic sensor that she can see through. This functions as per the spell arcane eye. If the witch has the coven hex, all other witches within 10 feet who also have the coven hex can see through this sensor as well, although the witch that created it still controls it. The witch can use this eye for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments.</text>
+            </feature>
+            <feature>
+                <name>Major Healing (Su)</name>
+                <text>By calling upon eerie powers, the witch’s touch can mend even the most terrible wounds of those she touches. This acts as cure serious wounds, using the witch’s caster level. Once a creature has benefited from the major healing hex, it cannot benefit from it again for 24 hours. At 15th level, this hex acts like cure critical wounds.</text>
+            </feature>
+            <feature>
+                <name>Nightmares (Su)</name>
+                <text>Calling upon fell powers, a witch can place a hex on a creature within 60 feet that causes its sleep to be tormented by terrible nightmares.This functions as the spell nightmare each time the affected creature attempts to rest. A Will save negates this effect. If the save is failed, the target must make a new save each night or be unable to rest.</text>
+            </feature>
+            <feature>
+                <name>Retribution (Su)</name>
+                <text>A witch can place a retribution hex on a creature within 60 feet, causing terrible wounds to open across the target’s flesh whenever it deals damage to another creature in melee. Immediately after the hexed creature deals damage in melee, it takes half that damage (round down). This damage bypasses any resistances, immunities, or damage reduction the creature possesses. This effect lasts for a number of rounds equal to the witch’s Intelligence modifier. A Will save negates this effect.</text>
+            </feature>
+            <feature>
+                <name>Vision (Su)</name>
+                <text>A witch with the vision hex can grant a glimpse of the future to a creature touched. Granting a vision takes 1 minute, during which time the witch and the target must remain in contact with one another. At the end of this time, the subject receives a brief image of the future, usually no more than 1 year from the time of the vision, subject to GM discretion. This is only one possible version of the future, making such visions unreliable at best. Most visions are slanted toward the alignment of the witch that granted them. For example, the visions granted by a chaotic evil witch often show scenes of death and destruction, while those of a neutral good witch tend to be of joyous events or occasions. A creature cannot be subject to another vision until the current vision has either come to pass or been prevented. A witch cannot use this ability on herself. Unwilling creatures receive a Will save to negate the vision.</text>
+            </feature>
+            <feature>
+                <name>Waxen Image (Su)</name>
+                <text>The witch can spend a full-round action to create a crude and unnerving wax duplicate of a creature she can see within 30 feet. Once the image is complete, the subject must make a Will save. If the subject fails, the witch gains a small measure of control over the creature. Whenever she exercises this control, the creature receives a new Will save to end the effect. This effect occurs on the witch’s turn and does not impede the creature’s actions on its turn. The witch can use the waxen image a number of times equal to her Intelligence modifier before it melts. As a standard action, the witch can cause the subject to do any one of the following things: move up to the creature’s speed in any direction, attack itself once with any weapon in hand (this attack automatically hits), lay down on the ground, or drop anything held. Alternatively, she can spend one of her uses to simply torture the image, causing the creature to be both sickened and staggered on its turn. As soon as the creature has succeeded on a saving throw against this effect, it is immune to it for 24 hours. The is an enchantment (compulsion) effect.</text>
+            </feature>
+            <feature>
+                <name>Weather Control (Su)</name>
+                <text>A witch with this hex can use control weather once per day, but creating the weather takes 1 full hour of chanting, dancing, and communing with her familiar.</text>
+            </feature>
+            <feature>
+                <name>Blight (Su)</name>
+                <text>The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it’s used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—type curse; save Will negates; frequency 1/day; effect 1 Con damage. Both types of curse can be removed with a remove curse or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</text>
+            </feature>
+            <feature>
+                <name>Cackle (Su)</name>
+                <text>A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an agony hex, charm hex, evil eye hex, fortune hex, or misfortune hex caused by the witch has the duration of that hex extended by 1 round.</text>
+            </feature>
+            <feature>
+                <name>Cauldron (Su)</name>
+                <text>The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.</text>
+            </feature>
+            <feature>
+                <name>Charm (Su)</name>
+                <text>A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the witch had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the Witch’s Intelligence modifier. A Will save negates this effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. At 8th level, this effect improves the attitude of the target creature by 2 steps. This is a mind-affecting charm effect.</text>
+            </feature>
+            <feature>
+                <name>Coven (Ex)</name>
+                <text>The witch counts as a hag for the purpose of joining a hag’s coven. The coven must contain at least one hag. In addition, whenever the witch with this hex is within 30 feet of another witch with this hex, she can use the aid another action to grant a +1 bonus to the other witch’s caster level for 1 round. This bonus applies to the witch’s spells and all of her hexes.</text>
+            </feature>
+            <feature>
+                <name>Disguise (Su)</name>
+                <text>A witch can change her appearance for a number of hours equal to her class level, as if using disguise self. These hours do not need to be consecutive, but they must be spent in 1-hour increments.</text>
+            </feature>
+            <feature>
+                <name>Evil Eye (Su)</name>
+                <text>The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty on one of the following (witch’s choice): AC, ability checks, attack rolls, saving throws, or skill checks. This hex lasts for a number of rounds equal to 3 + the witch’s Intelligence modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.</text>
+            </feature>
+            <feature>
+                <name>Flight (Su)</name>
+                <text>The witch grows lighter as she gains power, eventually gaining the ability to f ly. At 1st level, the witch can use feather fall at will and gains a +4 racial bonus on Swim checks. At 3rd level, she can cast levitate once per day. At 5th level, she can f ly, as per the spell, for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. This hex only affects the witch.</text>
+            </feature>
+            <feature>
+                <name>Fortune (Su)</name>
+                <text>The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use 3 this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</text>
+            </feature>
+            <feature>
+                <name>Healing (Su)</name>
+                <text>A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch’s caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this hex acts like cure moderate wounds.</text>
+            </feature>
+            <feature>
+                <name>Misfortune (Su)</name>
+                <text>The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Slumber (Su)</name>
+                <text>A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch’s level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action. This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Tongues (Su)</name>
+                <text>A witch with this hex can understand any spoken language for a number of minutes per day equal to her level, as comprehend languages. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a witch can use this ability to speak any language, as per tongues.</text>
+            </feature>
+            <feature>
+                <name>Ward (Su)</name>
+                <text>A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "15">
+            <bab>7</bab>
+            <fort>5</fort>
+            <ref>5</ref>
+            <will>9</will>
+            <slots>4,4,4,4,4,4,3,2,1</slots>
+        </autolevel>
+        <autolevel level = "16">
+            <bab>8</bab>
+            <fort>5</fort>
+            <ref>5</ref>
+            <will>10</will>
+            <slots>4,4,4,4,4,4,3,3,2</slots>
+            <feature>
+                <name>Major Hex</name>
+                <text>Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new hex.</text>
+            </feature>
+            <feature>
+                <name>Agony (Su)</name>
+                <text>With a quick incantation, a witch can place this hex on one creature within 60 feet, causing them to suffer intense pain. The target is nauseated for a number of rounds equal to the witch’s level. A Fortitude save negates this effect. If the saving throw is failed, the target can attempt a new save each round to end the effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Hag's Eye (Su)</name>
+                <text>A witch with this hex can create a magic sensor that she can see through. This functions as per the spell arcane eye. If the witch has the coven hex, all other witches within 10 feet who also have the coven hex can see through this sensor as well, although the witch that created it still controls it. The witch can use this eye for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments.</text>
+            </feature>
+            <feature>
+                <name>Major Healing (Su)</name>
+                <text>By calling upon eerie powers, the witch’s touch can mend even the most terrible wounds of those she touches. This acts as cure serious wounds, using the witch’s caster level. Once a creature has benefited from the major healing hex, it cannot benefit from it again for 24 hours. At 15th level, this hex acts like cure critical wounds.</text>
+            </feature>
+            <feature>
+                <name>Nightmares (Su)</name>
+                <text>Calling upon fell powers, a witch can place a hex on a creature within 60 feet that causes its sleep to be tormented by terrible nightmares.This functions as the spell nightmare each time the affected creature attempts to rest. A Will save negates this effect. If the save is failed, the target must make a new save each night or be unable to rest.</text>
+            </feature>
+            <feature>
+                <name>Retribution (Su)</name>
+                <text>A witch can place a retribution hex on a creature within 60 feet, causing terrible wounds to open across the target’s flesh whenever it deals damage to another creature in melee. Immediately after the hexed creature deals damage in melee, it takes half that damage (round down). This damage bypasses any resistances, immunities, or damage reduction the creature possesses. This effect lasts for a number of rounds equal to the witch’s Intelligence modifier. A Will save negates this effect.</text>
+            </feature>
+            <feature>
+                <name>Vision (Su)</name>
+                <text>A witch with the vision hex can grant a glimpse of the future to a creature touched. Granting a vision takes 1 minute, during which time the witch and the target must remain in contact with one another. At the end of this time, the subject receives a brief image of the future, usually no more than 1 year from the time of the vision, subject to GM discretion. This is only one possible version of the future, making such visions unreliable at best. Most visions are slanted toward the alignment of the witch that granted them. For example, the visions granted by a chaotic evil witch often show scenes of death and destruction, while those of a neutral good witch tend to be of joyous events or occasions. A creature cannot be subject to another vision until the current vision has either come to pass or been prevented. A witch cannot use this ability on herself. Unwilling creatures receive a Will save to negate the vision.</text>
+            </feature>
+            <feature>
+                <name>Waxen Image (Su)</name>
+                <text>The witch can spend a full-round action to create a crude and unnerving wax duplicate of a creature she can see within 30 feet. Once the image is complete, the subject must make a Will save. If the subject fails, the witch gains a small measure of control over the creature. Whenever she exercises this control, the creature receives a new Will save to end the effect. This effect occurs on the witch’s turn and does not impede the creature’s actions on its turn. The witch can use the waxen image a number of times equal to her Intelligence modifier before it melts. As a standard action, the witch can cause the subject to do any one of the following things: move up to the creature’s speed in any direction, attack itself once with any weapon in hand (this attack automatically hits), lay down on the ground, or drop anything held. Alternatively, she can spend one of her uses to simply torture the image, causing the creature to be both sickened and staggered on its turn. As soon as the creature has succeeded on a saving throw against this effect, it is immune to it for 24 hours. The is an enchantment (compulsion) effect.</text>
+            </feature>
+            <feature>
+                <name>Weather Control (Su)</name>
+                <text>A witch with this hex can use control weather once per day, but creating the weather takes 1 full hour of chanting, dancing, and communing with her familiar.</text>
+            </feature>
+            <feature>
+                <name>Blight (Su)</name>
+                <text>The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it’s used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—type curse; save Will negates; frequency 1/day; effect 1 Con damage. Both types of curse can be removed with a remove curse or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</text>
+            </feature>
+            <feature>
+                <name>Cackle (Su)</name>
+                <text>A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an agony hex, charm hex, evil eye hex, fortune hex, or misfortune hex caused by the witch has the duration of that hex extended by 1 round.</text>
+            </feature>
+            <feature>
+                <name>Cauldron (Su)</name>
+                <text>The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.</text>
+            </feature>
+            <feature>
+                <name>Charm (Su)</name>
+                <text>A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the witch had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the Witch’s Intelligence modifier. A Will save negates this effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. At 8th level, this effect improves the attitude of the target creature by 2 steps. This is a mind-affecting charm effect.</text>
+            </feature>
+            <feature>
+                <name>Coven (Ex)</name>
+                <text>The witch counts as a hag for the purpose of joining a hag’s coven. The coven must contain at least one hag. In addition, whenever the witch with this hex is within 30 feet of another witch with this hex, she can use the aid another action to grant a +1 bonus to the other witch’s caster level for 1 round. This bonus applies to the witch’s spells and all of her hexes.</text>
+            </feature>
+            <feature>
+                <name>Disguise (Su)</name>
+                <text>A witch can change her appearance for a number of hours equal to her class level, as if using disguise self. These hours do not need to be consecutive, but they must be spent in 1-hour increments.</text>
+            </feature>
+            <feature>
+                <name>Evil Eye (Su)</name>
+                <text>The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty on one of the following (witch’s choice): AC, ability checks, attack rolls, saving throws, or skill checks. This hex lasts for a number of rounds equal to 3 + the witch’s Intelligence modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.</text>
+            </feature>
+            <feature>
+                <name>Flight (Su)</name>
+                <text>The witch grows lighter as she gains power, eventually gaining the ability to f ly. At 1st level, the witch can use feather fall at will and gains a +4 racial bonus on Swim checks. At 3rd level, she can cast levitate once per day. At 5th level, she can f ly, as per the spell, for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. This hex only affects the witch.</text>
+            </feature>
+            <feature>
+                <name>Fortune (Su)</name>
+                <text>The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use 3 this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</text>
+            </feature>
+            <feature>
+                <name>Healing (Su)</name>
+                <text>A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch’s caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this hex acts like cure moderate wounds.</text>
+            </feature>
+            <feature>
+                <name>Misfortune (Su)</name>
+                <text>The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Slumber (Su)</name>
+                <text>A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch’s level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action. This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Tongues (Su)</name>
+                <text>A witch with this hex can understand any spoken language for a number of minutes per day equal to her level, as comprehend languages. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a witch can use this ability to speak any language, as per tongues.</text>
+            </feature>
+            <feature>
+                <name>Ward (Su)</name>
+                <text>A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "17">
+            <bab>8</bab>
+            <fort>5</fort>
+            <ref>5</ref>
+            <will>10</will>
+            <slots>4,4,4,4,4,4,4,3,2,1</slots>
+        </autolevel>
+        <autolevel level = "18">
+            <bab>9</bab>
+            <fort>6</fort>
+            <ref>6</ref>
+            <will>11</will>
+            <slots>4,4,4,4,4,4,4,3,3,2</slots>
+            <feature>
+                <name>Grand Hex</name>
+                <text>Starting at 18th level, and every two levels thereafter, a witch can choose one of the following grand hexes whenever she could select a new hex.</text>
+            </feature>
+            <feature>
+                <name>Death Curse (Su)</name>
+                <text>This powerful hex seizes a creature’s heart, causing death within just a few moments. This hex has a range of 30 feet. The hexed creature receives a Will save to negate the effect. If this save is failed, the creature becomes fatigued the first round of the hex. On the second round of the hex, the creature becomes exhausted. On the third round, the creature dies unless it succeeds at a Fort save. Creatures that fail the first save but succeed at the second remain exhausted and take 4d6 points of damage + 1 point of damage per level of the witch. Slaying the witch that hexed the creature ends the effect, but any fatigue or exhaustion remains. Whether or not the saves are successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Eternal Slumber (Su)</name>
+                <text>The witch can touch a creature, causing it to drift off into a permanent slumber. The creature receives a Will save to negate this effect. If the save fails, the creature falls asleep and cannot be woken. The effect can only be removed with a wish or similar magic, although slaying the witch ends the effect. The witch can use this ability to poison food or drink, causing those who ingest it to make a save or fall into an eternal slumber. She can only have one such dose of poison at any one time, and it loses its potency after 1 minute if not consumed. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Forced Reincarnation (Su)</name>
+                <text>The witch causes a creature within 30 feet to die and be immediately reincarnated into a new body. A Will save negates this effect. Those that fail are slain and immediately brought back to life with the spell reincarnate. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Life Giver (Su)</name>
+                <text>Once per day the witch can, as a full round action, touch a dead creature and bring it back to life. This functions as resurrection, but it does not require a material component.</text>
+            </feature>
+            <feature>
+                <name>Natural Disaster (Su)</name>
+                <text>A witch using this hex calls down the forces of nature to wreak havoc on an area. This functions as a storm of vengeance combined with an earthquake that occurs on the second round of the effect (while acid is raining from the sky). A witch must concentrate for the duration of this effect. If disrupted, the effect immediately ends. A witch can only use this ability once per day.</text>
+            </feature>
+            <feature>
+                <name>Major Hex</name>
+                <text>Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new hex.</text>
+            </feature>
+            <feature>
+                <name>Agony (Su)</name>
+                <text>With a quick incantation, a witch can place this hex on one creature within 60 feet, causing them to suffer intense pain. The target is nauseated for a number of rounds equal to the witch’s level. A Fortitude save negates this effect. If the saving throw is failed, the target can attempt a new save each round to end the effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Hag's Eye (Su)</name>
+                <text>A witch with this hex can create a magic sensor that she can see through. This functions as per the spell arcane eye. If the witch has the coven hex, all other witches within 10 feet who also have the coven hex can see through this sensor as well, although the witch that created it still controls it. The witch can use this eye for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments.</text>
+            </feature>
+            <feature>
+                <name>Major Healing (Su)</name>
+                <text>By calling upon eerie powers, the witch’s touch can mend even the most terrible wounds of those she touches. This acts as cure serious wounds, using the witch’s caster level. Once a creature has benefited from the major healing hex, it cannot benefit from it again for 24 hours. At 15th level, this hex acts like cure critical wounds.</text>
+            </feature>
+            <feature>
+                <name>Nightmares (Su)</name>
+                <text>Calling upon fell powers, a witch can place a hex on a creature within 60 feet that causes its sleep to be tormented by terrible nightmares.This functions as the spell nightmare each time the affected creature attempts to rest. A Will save negates this effect. If the save is failed, the target must make a new save each night or be unable to rest.</text>
+            </feature>
+            <feature>
+                <name>Retribution (Su)</name>
+                <text>A witch can place a retribution hex on a creature within 60 feet, causing terrible wounds to open across the target’s flesh whenever it deals damage to another creature in melee. Immediately after the hexed creature deals damage in melee, it takes half that damage (round down). This damage bypasses any resistances, immunities, or damage reduction the creature possesses. This effect lasts for a number of rounds equal to the witch’s Intelligence modifier. A Will save negates this effect.</text>
+            </feature>
+            <feature>
+                <name>Vision (Su)</name>
+                <text>A witch with the vision hex can grant a glimpse of the future to a creature touched. Granting a vision takes 1 minute, during which time the witch and the target must remain in contact with one another. At the end of this time, the subject receives a brief image of the future, usually no more than 1 year from the time of the vision, subject to GM discretion. This is only one possible version of the future, making such visions unreliable at best. Most visions are slanted toward the alignment of the witch that granted them. For example, the visions granted by a chaotic evil witch often show scenes of death and destruction, while those of a neutral good witch tend to be of joyous events or occasions. A creature cannot be subject to another vision until the current vision has either come to pass or been prevented. A witch cannot use this ability on herself. Unwilling creatures receive a Will save to negate the vision.</text>
+            </feature>
+            <feature>
+                <name>Waxen Image (Su)</name>
+                <text>The witch can spend a full-round action to create a crude and unnerving wax duplicate of a creature she can see within 30 feet. Once the image is complete, the subject must make a Will save. If the subject fails, the witch gains a small measure of control over the creature. Whenever she exercises this control, the creature receives a new Will save to end the effect. This effect occurs on the witch’s turn and does not impede the creature’s actions on its turn. The witch can use the waxen image a number of times equal to her Intelligence modifier before it melts. As a standard action, the witch can cause the subject to do any one of the following things: move up to the creature’s speed in any direction, attack itself once with any weapon in hand (this attack automatically hits), lay down on the ground, or drop anything held. Alternatively, she can spend one of her uses to simply torture the image, causing the creature to be both sickened and staggered on its turn. As soon as the creature has succeeded on a saving throw against this effect, it is immune to it for 24 hours. The is an enchantment (compulsion) effect.</text>
+            </feature>
+            <feature>
+                <name>Weather Control (Su)</name>
+                <text>A witch with this hex can use control weather once per day, but creating the weather takes 1 full hour of chanting, dancing, and communing with her familiar.</text>
+            </feature>
+            <feature>
+                <name>Blight (Su)</name>
+                <text>The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it’s used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—type curse; save Will negates; frequency 1/day; effect 1 Con damage. Both types of curse can be removed with a remove curse or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</text>
+            </feature>
+            <feature>
+                <name>Cackle (Su)</name>
+                <text>A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an agony hex, charm hex, evil eye hex, fortune hex, or misfortune hex caused by the witch has the duration of that hex extended by 1 round.</text>
+            </feature>
+            <feature>
+                <name>Cauldron (Su)</name>
+                <text>The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.</text>
+            </feature>
+            <feature>
+                <name>Charm (Su)</name>
+                <text>A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the witch had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the Witch’s Intelligence modifier. A Will save negates this effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. At 8th level, this effect improves the attitude of the target creature by 2 steps. This is a mind-affecting charm effect.</text>
+            </feature>
+            <feature>
+                <name>Coven (Ex)</name>
+                <text>The witch counts as a hag for the purpose of joining a hag’s coven. The coven must contain at least one hag. In addition, whenever the witch with this hex is within 30 feet of another witch with this hex, she can use the aid another action to grant a +1 bonus to the other witch’s caster level for 1 round. This bonus applies to the witch’s spells and all of her hexes.</text>
+            </feature>
+            <feature>
+                <name>Disguise (Su)</name>
+                <text>A witch can change her appearance for a number of hours equal to her class level, as if using disguise self. These hours do not need to be consecutive, but they must be spent in 1-hour increments.</text>
+            </feature>
+            <feature>
+                <name>Evil Eye (Su)</name>
+                <text>The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty on one of the following (witch’s choice): AC, ability checks, attack rolls, saving throws, or skill checks. This hex lasts for a number of rounds equal to 3 + the witch’s Intelligence modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.</text>
+            </feature>
+            <feature>
+                <name>Flight (Su)</name>
+                <text>The witch grows lighter as she gains power, eventually gaining the ability to f ly. At 1st level, the witch can use feather fall at will and gains a +4 racial bonus on Swim checks. At 3rd level, she can cast levitate once per day. At 5th level, she can f ly, as per the spell, for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. This hex only affects the witch.</text>
+            </feature>
+            <feature>
+                <name>Fortune (Su)</name>
+                <text>The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use 3 this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</text>
+            </feature>
+            <feature>
+                <name>Healing (Su)</name>
+                <text>A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch’s caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this hex acts like cure moderate wounds.</text>
+            </feature>
+            <feature>
+                <name>Misfortune (Su)</name>
+                <text>The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Slumber (Su)</name>
+                <text>A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch’s level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action. This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Tongues (Su)</name>
+                <text>A witch with this hex can understand any spoken language for a number of minutes per day equal to her level, as comprehend languages. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a witch can use this ability to speak any language, as per tongues.</text>
+            </feature>
+            <feature>
+                <name>Ward (Su)</name>
+                <text>A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "19">
+            <bab>9</bab>
+            <fort>6</fort>
+            <ref>6</ref>
+            <will>11</will>
+            <slots>4,4,4,4,4,4,4,4,3,3</slots>
+        </autolevel>
+        <autolevel level = "20">
+            <bab>10</bab>
+            <fort>6</fort>
+            <ref>6</ref>
+            <will>12</will>
+            <slots>4,4,4,4,4,4,4,4,4,4</slots>
+            <feature>
+                <name>Death Curse (Su)</name>
+                <text>This powerful hex seizes a creature’s heart, causing death within just a few moments. This hex has a range of 30 feet. The hexed creature receives a Will save to negate the effect. If this save is failed, the creature becomes fatigued the first round of the hex. On the second round of the hex, the creature becomes exhausted. On the third round, the creature dies unless it succeeds at a Fort save. Creatures that fail the first save but succeed at the second remain exhausted and take 4d6 points of damage + 1 point of damage per level of the witch. Slaying the witch that hexed the creature ends the effect, but any fatigue or exhaustion remains. Whether or not the saves are successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Eternal Slumber (Su)</name>
+                <text>The witch can touch a creature, causing it to drift off into a permanent slumber. The creature receives a Will save to negate this effect. If the save fails, the creature falls asleep and cannot be woken. The effect can only be removed with a wish or similar magic, although slaying the witch ends the effect. The witch can use this ability to poison food or drink, causing those who ingest it to make a save or fall into an eternal slumber. She can only have one such dose of poison at any one time, and it loses its potency after 1 minute if not consumed. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Forced Reincarnation (Su)</name>
+                <text>The witch causes a creature within 30 feet to die and be immediately reincarnated into a new body. A Will save negates this effect. Those that fail are slain and immediately brought back to life with the spell reincarnate. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Life Giver (Su)</name>
+                <text>Once per day the witch can, as a full round action, touch a dead creature and bring it back to life. This functions as resurrection, but it does not require a material component.</text>
+            </feature>
+            <feature>
+                <name>Natural Disaster (Su)</name>
+                <text>A witch using this hex calls down the forces of nature to wreak havoc on an area. This functions as a storm of vengeance combined with an earthquake that occurs on the second round of the effect (while acid is raining from the sky). A witch must concentrate for the duration of this effect. If disrupted, the effect immediately ends. A witch can only use this ability once per day.</text>
+            </feature>
+            <feature>
+                <name>Major Hex</name>
+                <text>Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new hex.</text>
+            </feature>
+            <feature>
+                <name>Agony (Su)</name>
+                <text>With a quick incantation, a witch can place this hex on one creature within 60 feet, causing them to suffer intense pain. The target is nauseated for a number of rounds equal to the witch’s level. A Fortitude save negates this effect. If the saving throw is failed, the target can attempt a new save each round to end the effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Hag's Eye (Su)</name>
+                <text>A witch with this hex can create a magic sensor that she can see through. This functions as per the spell arcane eye. If the witch has the coven hex, all other witches within 10 feet who also have the coven hex can see through this sensor as well, although the witch that created it still controls it. The witch can use this eye for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments.</text>
+            </feature>
+            <feature>
+                <name>Major Healing (Su)</name>
+                <text>By calling upon eerie powers, the witch’s touch can mend even the most terrible wounds of those she touches. This acts as cure serious wounds, using the witch’s caster level. Once a creature has benefited from the major healing hex, it cannot benefit from it again for 24 hours. At 15th level, this hex acts like cure critical wounds.</text>
+            </feature>
+            <feature>
+                <name>Nightmares (Su)</name>
+                <text>Calling upon fell powers, a witch can place a hex on a creature within 60 feet that causes its sleep to be tormented by terrible nightmares.This functions as the spell nightmare each time the affected creature attempts to rest. A Will save negates this effect. If the save is failed, the target must make a new save each night or be unable to rest.</text>
+            </feature>
+            <feature>
+                <name>Retribution (Su)</name>
+                <text>A witch can place a retribution hex on a creature within 60 feet, causing terrible wounds to open across the target’s flesh whenever it deals damage to another creature in melee. Immediately after the hexed creature deals damage in melee, it takes half that damage (round down). This damage bypasses any resistances, immunities, or damage reduction the creature possesses. This effect lasts for a number of rounds equal to the witch’s Intelligence modifier. A Will save negates this effect.</text>
+            </feature>
+            <feature>
+                <name>Vision (Su)</name>
+                <text>A witch with the vision hex can grant a glimpse of the future to a creature touched. Granting a vision takes 1 minute, during which time the witch and the target must remain in contact with one another. At the end of this time, the subject receives a brief image of the future, usually no more than 1 year from the time of the vision, subject to GM discretion. This is only one possible version of the future, making such visions unreliable at best. Most visions are slanted toward the alignment of the witch that granted them. For example, the visions granted by a chaotic evil witch often show scenes of death and destruction, while those of a neutral good witch tend to be of joyous events or occasions. A creature cannot be subject to another vision until the current vision has either come to pass or been prevented. A witch cannot use this ability on herself. Unwilling creatures receive a Will save to negate the vision.</text>
+            </feature>
+            <feature>
+                <name>Waxen Image (Su)</name>
+                <text>The witch can spend a full-round action to create a crude and unnerving wax duplicate of a creature she can see within 30 feet. Once the image is complete, the subject must make a Will save. If the subject fails, the witch gains a small measure of control over the creature. Whenever she exercises this control, the creature receives a new Will save to end the effect. This effect occurs on the witch’s turn and does not impede the creature’s actions on its turn. The witch can use the waxen image a number of times equal to her Intelligence modifier before it melts. As a standard action, the witch can cause the subject to do any one of the following things: move up to the creature’s speed in any direction, attack itself once with any weapon in hand (this attack automatically hits), lay down on the ground, or drop anything held. Alternatively, she can spend one of her uses to simply torture the image, causing the creature to be both sickened and staggered on its turn. As soon as the creature has succeeded on a saving throw against this effect, it is immune to it for 24 hours. The is an enchantment (compulsion) effect.</text>
+            </feature>
+            <feature>
+                <name>Weather Control (Su)</name>
+                <text>A witch with this hex can use control weather once per day, but creating the weather takes 1 full hour of chanting, dancing, and communing with her familiar.</text>
+            </feature>
+            <feature>
+                <name>Blight (Su)</name>
+                <text>The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it’s used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level × 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following curse: Blight Hex—type curse; save Will negates; frequency 1/day; effect 1 Con damage. Both types of curse can be removed with a remove curse or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends.</text>
+            </feature>
+            <feature>
+                <name>Cackle (Su)</name>
+                <text>A witch can cackle madly as a move action. Any creature that is within 30 feet that is under the effects of an agony hex, charm hex, evil eye hex, fortune hex, or misfortune hex caused by the witch has the duration of that hex extended by 1 round.</text>
+            </feature>
+            <feature>
+                <name>Cauldron (Su)</name>
+                <text>The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.</text>
+            </feature>
+            <feature>
+                <name>Charm (Su)</name>
+                <text>A witch can charm an animal or humanoid creature within 30 feet by beckoning and speaking soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the witch had successfully used the Diplomacy skill. The effect lasts for a number of rounds equal to the Witch’s Intelligence modifier. A Will save negates this effect. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day. At 8th level, this effect improves the attitude of the target creature by 2 steps. This is a mind-affecting charm effect.</text>
+            </feature>
+            <feature>
+                <name>Coven (Ex)</name>
+                <text>The witch counts as a hag for the purpose of joining a hag’s coven. The coven must contain at least one hag. In addition, whenever the witch with this hex is within 30 feet of another witch with this hex, she can use the aid another action to grant a +1 bonus to the other witch’s caster level for 1 round. This bonus applies to the witch’s spells and all of her hexes.</text>
+            </feature>
+            <feature>
+                <name>Disguise (Su)</name>
+                <text>A witch can change her appearance for a number of hours equal to her class level, as if using disguise self. These hours do not need to be consecutive, but they must be spent in 1-hour increments.</text>
+            </feature>
+            <feature>
+                <name>Evil Eye (Su)</name>
+                <text>The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty on one of the following (witch’s choice): AC, ability checks, attack rolls, saving throws, or skill checks. This hex lasts for a number of rounds equal to 3 + the witch’s Intelligence modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.</text>
+            </feature>
+            <feature>
+                <name>Flight (Su)</name>
+                <text>The witch grows lighter as she gains power, eventually gaining the ability to f ly. At 1st level, the witch can use feather fall at will and gains a +4 racial bonus on Swim checks. At 3rd level, she can cast levitate once per day. At 5th level, she can f ly, as per the spell, for a number of minutes per day equal to her level. These minutes do not need to be consecutive, but they must be spent in 1-minute increments. This hex only affects the witch.</text>
+            </feature>
+            <feature>
+                <name>Fortune (Su)</name>
+                <text>The witch can grant a creature within 30 feet a bit of good luck for 1 round. The target can call upon this good luck once per round, allowing him to reroll any ability check, attack roll, saving throw, or skill check, taking the better result. He must decide to use 3 this ability before the first roll is made. At 8th level and 16th level, the duration of this hex is extended by 1 round. Once a creature has benefited from the fortune hex, it cannot benefit from it again for 24 hours.</text>
+            </feature>
+            <feature>
+                <name>Healing (Su)</name>
+                <text>A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch’s caster level. Once a creature has benefited from the healing hex, it cannot benefit from it again for 24 hours. At 5th level, this hex acts like cure moderate wounds.</text>
+            </feature>
+            <feature>
+                <name>Misfortune (Su)</name>
+                <text>The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round. Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll twice and take the worse result. A Will save negates this hex. At 8th level and 16th level, the duration of this hex is extended by 1 round. This hex affects all rolls the target must make while it lasts. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Slumber (Su)</name>
+                <text>A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch’s level. This hex can affect a creature of any HD. The creature will not wake due to noise or light, but others can rouse it with a standard action. This hex ends immediately if the creature takes damage. Whether or not the save is successful, a creature cannot be the target of this hex again for 1 day.</text>
+            </feature>
+            <feature>
+                <name>Tongues (Su)</name>
+                <text>A witch with this hex can understand any spoken language for a number of minutes per day equal to her level, as comprehend languages. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 5th level, a witch can use this ability to speak any language, as per tongues.</text>
+            </feature>
+            <feature>
+                <name>Ward (Su)</name>
+                <text>A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This ward lasts until the warded creature is hit or fails a saving throw. A witch knows when a warded creature is no longer protected. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. A witch cannot use this ability on herself. At 8th level and 16th level, the bonuses provided by this ward increase by +1.</text>
+            </feature>
+        </autolevel>
+    </class>
+</compendium>

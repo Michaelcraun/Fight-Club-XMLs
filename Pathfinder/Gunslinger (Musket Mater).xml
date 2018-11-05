@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="PF">
+    <class>
+        <name>Gunslinger (Musket Master)</name>
+        <hd>10</hd>
+        <skills>Acrobatics, Bluff, Climb, Craft, Handle Animal, Heal, Intimidate, Knowledge (engineering), Knowledge (local), Perception, Profession, Ride, Sleight of Hand, Survival, Swim</skills>
+        <skillPoints>4</skillPoints>
+        <wealth>5d6*10</wealth>
+        <spellAbility></spellAbility>
+        <autolevel level = "1">
+            <bab>1</bab>
+            <fort>2</fort>
+            <ref>2</ref>
+            <will>0</will>
+            <feature>
+                <name>Weapon and Armor Proficiency</name>
+                <text>Gunslingers are proficient with all simple and martial weapons, and with two-handed firearms. They must take the Exotic Weapon Proficiency (firearms) feat to gain proficiency with one-handed firearms and firearm siege engines. They are proficient with all light armor.</text>
+            </feature>
+            <feature>
+                <name>Rapid Reloader</name>
+                <text>At 1st level, a musket master gains Rapid Reload (musket) as a bonus feat. Use the updated version of this feat on page 115.</text>
+            </feature>
+            <feature>
+                <name>Gunsmith</name>
+                <text>At 1st level, a gunslinger gains a battered musket, and only she knows how to use it properly. All other creatures treat her gun as if it had the broken condition. If the weapon already has the broken condition, it does not work at all for anyone else trying to use it. This starting weapon can only be sold for scrap (it’s worth 4d10 gp when sold). The gunslinger also gains Gunsmithing as a bonus feat.</text>
+            </feature>
+            <feature>
+                <name>Grit (Ex)</name>
+                <text>A gunslinger makes her mark upon the world with daring deeds. Some gunslingers claim they belong to a mystical way of the gun, but it’s more likely that the volatile nature of firearms simply prunes the unlucky and careless from their ranks. Whatever the reason, all gunslingers have grit. In game terms, grit is a f luctuating measure of a gunslinger’s ability to perform amazing actions in combat. At the start of each day, a gunslinger gains a number of grit points equal to her Wisdom modifier (minimum 1). Her grit goes up or down throughout the day, but usually cannot go higher than her Wisdom modifier (minimum 1), though some feats and magic items may affect this maximum. A gunslinger spends grit to accomplish deeds (see below), and regains grit in the following ways.</text>
+                <text>  Critical Hit with a Firearm: Each time the gunslinger confirms a critical hit with a firearm attack while in the heat of combat, she regains 1 grit point. Confirming a critical hit on a helpless or unaware creature or on a creature that has fewer Hit Dice than half the gunslinger’s character level does not restore grit.</text>
+                <text>  Killing Blow with a Firearm: When the gunslinger reduces a creature to 0 or fewer hit points with a firearm attack while in the heat of combat, she regains 1 grit point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half the gunslinger’s character level to 0 or fewer hit points does not restore any grit.</text>
+            </feature>
+            <feature>
+                <name>Deeds</name>
+                <text>Gunslingers spend grit points to accomplish deeds. Most deeds grant the gunslinger some momentary bonus or effect, but there are some that provide longer-lasting effects. Some deeds stay in effect as long as the gunslinger has at least 1 grit point. A gunslinger can only perform deeds of her level or lower. Unless otherwise noted, a deed can be performed multiple successive times, as long as the appropriate amount of grit is spent to perform the deed.</text>
+            </feature>
+            <feature>
+                <name>Steady Aim (Ex)</name>
+                <text>At 1st level, as long as a musket master has at least 1 grit point, she can take a move-equivalent action to increase the accuracy of a two-handed firearm. When she does, she increases the range increment of the firearm she is firing by 10 feet. This stacks with other abilities that increase her range increment.</text>
+                <text></text>
+            </feature>
+            <feature>
+                <name>Deadeye (Ex)</name>
+                <text>At 1st level, the gunslinger can resolve an attack against touch AC instead of normal AC when firing beyond her firearm’s first range increment. Performing this deed costs 1 grit point per range increment beyond the first. The gunslinger still takes the –2 penalty on attack rolls for each range increment beyond the first when she performs this deed.</text>
+            </feature>
+            <feature>
+                <name>Quick Clear (Ex)</name>
+                <text>At 1st level, as a standard action, the gunslinger can remove the broken condition from a single firearm she is currently wielding, as long as that condition was gained by a firearm misfire. The gunslinger must have at least 1 grit point to perform this deed. Alternatively, if the gunslinger spends 1 grit point to perform this deed, she can perform quick clear as a move-equivalent action instead of a standard action.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "2">
+            <bab>2</bab>
+            <fort>3</fort>
+            <ref>3</ref>
+            <will>0</will>
+            <feature>
+                <name>Nimble (Ex)</name>
+                <text>Starting at 2nd level, a gunslinger gains a +1 dodge bonus to AC while wearing light or no armor. Anything that causes the gunslinger to lose her Dexterity bonus to AC also causes the gunslinger to lose this dodge bonus. This bonus increases by +1 for every four levels beyond 2nd level (to a maximum of +5 at 20th level).</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "3">
+            <bab>3</bab>
+            <fort>3</fort>
+            <ref>3</ref>
+            <will>1</will>
+            <feature>
+                <name>Fast Musket (Ex)</name>
+                <text>At 3rd level, as long as the musket master has 1 grit point, she can reload any two-handed firearm as if it were a one-handed firearm.</text>
+            </feature>
+            <feature>
+                <name>Gunslinger Initiative (Ex)</name>
+                <text>At 3rd level, as long as the gunslinger has at least 1 grit point, she gains the following benefits. First, she gains a +2 bonus on initiative checks. Furthermore, if she has the Quick Draw feat, her hands are free and unrestrained, and the firearm is not hidden, she can draw a single firearm as part of the initiative check.</text>
+            </feature>
+            <feature>
+                <name>Pistol-Whip (Ex)</name>
+                <text>At 3rd level, the gunslinger can make a surprise melee attack with the butt or handle of her firearm as a standard action. When she does, she is considered to be proficient with the firearm as a melee weapon and gains a bonus on the attack and damage rolls equal to the enhancement bonus of the firearm. The damage dealt by the pistol-whip is of the bludgeoning type, and is determined by the size of the firearm. One-handed firearms deal 1d6 points of damage (1d4 if wielded by Small creatures) and two- handed firearms deal 1d10 points of damage (1d8 if wielded by Small creatures). Regardless of the gunslinger’s size, the critical multiplier of this attack is 20/×2. If the attack hits, the gunslinger can make a combat maneuver check to knock the target prone as a free action. Performing this deed costs 1 grit point.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "4">
+            <bab>4</bab>
+            <fort>4</fort>
+            <ref>4</ref>
+            <will>1</will>
+        </autolevel>
+        <autolevel level = "5">
+            <bab>5</bab>
+            <fort>4</fort>
+            <ref>4</ref>
+            <will>1</will>
+            <feature>
+                <name>Musket Training (Ex)</name>
+                <text>Starting at 5th level, a musket master increases her skill with two-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a two-handed firearm, the misfire value increases by 2 instead of 4. Every four levels thereafter (9th, 13th, and 17th), the bonus on damage rolls increases by +1. </text>
+            </feature>
+        </autolevel>
+        <autolevel level = "6">
+            <bab>6</bab>
+            <fort>5</fort>
+            <ref>5</ref>
+            <will>2</will>
+        </autolevel>
+        <autolevel level = "7">
+            <bab>7</bab>
+            <fort>5</fort>
+            <ref>5</ref>
+            <will>2</will>
+            <feature>
+                <name>Dead Shot (Ex)</name>
+                <text>At 7th level, as a full-round action, the gunslinger can take careful aim and pool all of her attack potential into a single, deadly shot. When she does this, she shoots the firearm at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack. If any of the attack rolls hit the target, the gunslinger’s single attack is considered to have hit. For each additional successful attack roll beyond the first, the gunslinger increases the damage of the shot by the base damage dice of the firearm. For instance, if a 7th- level gunslinger firing a musket hits with both attacks, she does 2d12 points of damage with the shot, instead of 1d12 points of damage, before adding any damage modifiers. Precision damage and extra damage from weapon special abilities (such as flaming) are added with damage modifiers and are not increased by this deed. If one or more rolls are critical threats, she confirms the critical once using her highest base attack bonus –5. For each critical threat beyond the first, she reduces this penalty by 1 (to a maximum of 0). The gunslinger only misfires on a dead shot if all the attack rolls are misfires. She cannot perform this deed with a blunderbuss or other scatter weapon when attacking creatures in a cone. The gunslinger must spend 1 grit point to perform this deed.</text>
+            </feature>
+            <feature>
+                <name>Startling Shot (Ex)</name>
+                <text>At 7th level, a gunslinger with least 1 grit point can spend a standard action to purposely miss a creature that she could normally hit with a firearm attack. When she does, that creature becomes flat-footed until the start of its next turn.</text>
+            </feature>
+            <feature>
+                <name>Targeting (Ex)</name>
+                <text>At 7th level, as a full-round action, the gunslinger can make a single firearm attack and choose part of the body to target. She gains the following effects depending on the part of the body targeted. If a creature does not have one of the listed body locations, that part cannot be targeted. This deed costs 1 grit point to perform no matter which part of the creature she targets. Creatures that are immune to sneak attacks are immune to these effects.</text>
+                <text> • Arms: On a hit, the target takes no damage from the hit but drops one carried item of the gunslinger’s choice, even if the item is wielded with two hands. Items held in a locked gauntlet are not dropped on a hit.</text>
+                <text> • Head: On a hit, the target is damaged normally, and is also confused for 1 round. This is a mind-affecting effect.</text>
+                <text> • Legs: On a hit, the target is damaged normally and knocked prone. Creatures that have four or more legs or that are immune to trip attacks are immune to this effect.</text>
+                <text> • Torso: Targeting the torso threatens a critical on a 19–20. • Wings: On a hit, the target is damaged normally, and must make a DC 20 Fly check or fall 20 ft.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "8">
+            <bab>8</bab>
+            <fort>6</fort>
+            <ref>6</ref>
+            <will>2</will>
+        </autolevel>
+        <autolevel level = "9">
+            <bab>9</bab>
+            <fort>6</fort>
+            <ref>6</ref>
+            <will>3</will>
+        </autolevel>
+        <autolevel level = "10">
+            <bab>10</bab>
+            <fort>7</fort>
+            <ref>7</ref>
+            <will>3</will>
+        </autolevel>
+        <autolevel level = "11">
+            <bab>11</bab>
+            <fort>7</fort>
+            <ref>7</ref>
+            <will>3</will>
+            <feature>
+                <name>Bleeding Wound (Ex)</name>
+                <text>At 11th level, when the gunslinger hits a living creature with a firearm attack, she can spend 1 grit point as a free action to have that attack deal extra bleed damage. The amount of bleed damage is equal to the gunslinger’s Dexterity modifier. Alternatively, the gunslinger can spend 2 grit points to deal 1 point of Strength, Dexterity, or Constitution bleed damage (gunslinger’s choice) instead. Creatures that are immune to sneak attacks are also immune to these types of bleed damage.</text>
+            </feature>
+            <feature>
+                <name>Expert Loading(Ex)</name>
+                <text>At 11th level, whenever the gunslinger rolls a misfire with a gun that has the broken condition, she can spend 1 grit point to keep the gun from exploding, though it retains the broken condition.</text>
+            </feature>
+            <feature>
+                <name>Lightning Reload (Ex)</name>
+                <text>At 11th level, as long as the gunslinger has at least 1 grit point, she can reload a single barrel of a one-handed or two-handed firearm as a swift action once per round. If she has the Rapid Reload feat or is using an alchemical cartridge (or both), she can reload a single barrel of the weapon as a free action each round instead. Furthermore, using this deed does not provoke attacks of opportunity.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "12">
+            <bab>12</bab>
+            <fort>8</fort>
+            <ref>8</ref>
+            <will>4</will>
+        </autolevel>
+        <autolevel level = "13">
+            <bab>13</bab>
+            <fort>8</fort>
+            <ref>8</ref>
+            <will>4</will>
+        </autolevel>
+        <autolevel level = "14">
+            <bab>14</bab>
+            <fort>9</fort>
+            <ref>9</ref>
+            <will>4</will>
+        </autolevel>
+        <autolevel level = "15">
+            <bab>15</bab>
+            <fort>9</fort>
+            <ref>9</ref>
+            <will>5</will>
+            <feature>
+                <name>Evasive (Ex)</name>
+                <text>At 15th level, when the gunslinger has at least 1 grit point, she gains the benefit of the evasion, uncanny dodge, and improved uncanny dodge rogue class features. She uses her gunslinger level as her rogue level for improved uncanny dodge.</text>
+            </feature>
+            <feature>
+                <name>Menacing Shot (Ex)</name>
+                <text>At 15th level, the gunslinger can spend 1 grit point, shoot a firearm into the air, and affect all living creatures within a 30-foot-radius burst as if they were subject to the fear spell. The DC of this effect is equal to 10 + 1/2 the gunslinger’s level + the gunslinger’s Wisdom modifier.</text>
+            </feature>
+            <feature>
+                <name>Slinger's Luck (Ex)</name>
+                <text>At 15th level, the gunslinger can spend grit to reroll a saving throw or a skill check. It costs 2 grit points to reroll a saving throw, and 1 grit point to reroll a skill check. The gunslinger must take the result of the second roll, even if it is lower. The deed’s cost cannot be reduced by the true grit class ability, the Signature Deed feat, or any other effect that reduces the amount of grit a deed costs.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "16">
+            <bab>16</bab>
+            <fort>10</fort>
+            <ref>10</ref>
+            <will>5</will>
+        </autolevel>
+        <autolevel level = "17">
+            <bab>17</bab>
+            <fort>10</fort>
+            <ref>10</ref>
+            <will>5</will>
+        </autolevel>
+        <autolevel level = "18">
+            <bab>18</bab>
+            <fort>11</fort>
+            <ref>11</ref>
+            <will>6</will>
+        </autolevel>
+        <autolevel level = "19">
+            <bab>19</bab>
+            <fort>11</fort>
+            <ref>11</ref>
+            <will>6</will>
+            <feature>
+                <name>Cheat Death (Ex)</name>
+                <text>At 19th level, whenever the gunslinger is reduced to 0 or fewer hit points, she can spend all of her remaining grit points (minimum 1) to instead be reduced to 1 hit point.</text>
+            </feature>
+            <feature>
+                <name>Death's Shot (Ex)</name>
+                <text>At 19th level, when the gunslinger scores a critical hit, she can spend 1 grit point to deal normal damage, and the target must succeed at a Fortitude saving throw with a DC equal to 10 + 1/2 the gunslinger’s level + the gunslinger’s Dexterity modifier. On a failed saving throw, the target dies. This is a death attack. Performing this deed does not allow the gunslinger to regain grit from confirming a critical hit or making a killing blow.</text>
+            </feature>
+            <feature>
+                <name>Stunning Shot (Ex)</name>
+                <text>At 19th level, when a gunslinger hits a creature, she can spend 2 grit points to stun the creature for 1 round. The creature must make a Fortitude saving throw (the DC = 10 + 1/2 the gunslinger’s level + the gunslinger’s Wisdom modifier). If the creature fails, it is stunned for 1 round. Creatures that are immune to critical hits are also immune to this effect.</text>
+            </feature>
+        </autolevel>
+        <autolevel level = "20">
+            <bab>20</bab>
+            <fort>12</fort>
+            <ref>12</ref>
+            <will>6</will>
+            <feature>
+                <name>True Grit (Ex)</name>
+                <text>At 20th level, a gunslinger picks two deeds that she has access to and that she must spend grit to perform. She can perform these deeds for 1 grit point fewer (minimum 0) than usual. If the number of grit points to perform a deed is reduced to 0, the gunslinger can perform this deed as long as she has at least 1 grit point. If a deed could already be performed as long as she had at least 1 grit point, she can now perform that deed even when she has no grit points.</text>
+            </feature>
+        </autolevel>
+    </class>
+    <feat>
+        <name>Rapid Reload (musket)</name>
+        <prerequisite>Weapon Proficiency (crossbow type chosen) or Exotic Weapon Proficiency (firearm).</prerequisite>
+        <text>Choose a type of crossbow (hand, light, heavy) or a single type of one-handed or two-handed firearm that you are proficient with. You can reload such a weapon quickly.</text>
+        <text>Benefit: The time required for you to reload your chosen type of weapon is reduced to a free action (for a hand or light crossbow), a move action (for heavy crossbow or one-handed firearm), or a standard action (two-handed firearm). Reloading a crossbow or firearm still provokes attacks of opportunity.</text>
+        <text>If you have selected this feat for a hand crossbow or light crossbow, you may fire that weapon as many times in a full- attack action as you could attack if you were using a bow.</text>
+        <text>Normal: A character without this feat needs a move action to reload a hand or light crossbow, a standard action to reload a one-handed firearm, or a full-round action to load a heavy crossbow or a two-handed firearm.</text>
+        <text>Special: You can gain Rapid Reload multiple times. Each time you take the feat, it applies to a new type of crossbow or a new type of firearm.</text>
+    </feat>
+    <feat>
+        <name>Gunsmithing</name>
+        <text>You know the secrets of repairing and restoring firearms.</text>
+        <text>Benefit: If you have access to a gunsmith’s kit, you can create and restore firearms, craft bullets, and mix black powder for all types of firearms. You do not need to make a Craft check to create firearms and ammunition or to restore firearms.</text>
+        <text>Crafting Firearms: You can craft any early firearm for a cost in raw materials equal to half the price of the firearm. At your GM’s discretion, you can craft advanced firearms for a cost in raw materials equal to half the price of the firearm. Crafting a firearm in this way takes 1 day of work for every 1,000 gp of the firearm’s price (minimum 1 day).</text>
+        <text>Crafting Ammunition: You can craft bullets, pellets, and black powder for a cost in raw materials equal to 10% of the price. If you have at least 1 rank in Craft (alchemy), you can craft alchemical cartridges for a cost in raw materials equal to half the price of the cartridge. At your GM’s discretion, you can craft metal cartridges for a cost in raw materials equal to half the cost of the cartridge. Crafting bullets, black powder, or cartridges takes 1 day of work for every 1,000 gp of ammunition (minimum 1 day).</text>
+        <text>Restoring a Broken Firearm: Each day, with an hour’s worth of work, you can use this feat to repair a single firearm with the broken condition. You can take time during a rest period to restore a broken firearm with this feat.</text>
+        <text>Special: If you are a gunslinger, this feat grants the following additional benefit. You can use this feat to repair and restore your initial, battered weapon. It costs 300 gp and 1 day of work to upgrade it to a masterwork firearm of its type.</text>
+    </feat>
+</compendium>
+        
+        
+
